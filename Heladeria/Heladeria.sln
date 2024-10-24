@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heladeria", "Heladeria\Heladeria.csproj", "{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {826C8E43-E803-420A-A639-CBF225298DFE}
+	EndGlobalSection
+EndGlobal
