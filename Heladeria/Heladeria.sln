@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heladeria", "Heladeria\Hela
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{D429152A-C965-47DA-BFDE-05635FA879EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D429152A-C965-47DA-BFDE-05635FA879EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D429152A-C965-47DA-BFDE-05635FA879EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D429152A-C965-47DA-BFDE-05635FA879EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D429152A-C965-47DA-BFDE-05635FA879EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
