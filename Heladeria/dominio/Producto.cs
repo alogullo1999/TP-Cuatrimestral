@@ -21,8 +21,10 @@ namespace dominio
 
         public string Descripcion { get; set; }
 
-        public Marca marcas { get; set; }
+        public Marca marca { get; set; }
 
         public Proveedor proveedor { get; set; }
+
+        public Helado helado { get; set; }
     }
 }
