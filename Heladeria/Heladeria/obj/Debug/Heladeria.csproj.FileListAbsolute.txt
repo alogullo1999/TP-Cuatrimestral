@@ -72,3 +72,7 @@ C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\obj\Debug\
 C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\obj\Debug\Heladeria.csproj.Up2Date
 C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\obj\Debug\Heladeria.dll
 C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\obj\Debug\Heladeria.pdb
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\bin\dominio.dll
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\bin\negocio.dll
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\bin\dominio.pdb
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\Heladeria\bin\negocio.pdb

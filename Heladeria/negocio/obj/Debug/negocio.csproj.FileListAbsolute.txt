@@ -1,0 +1,9 @@
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\bin\Debug\negocio.dll
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\bin\Debug\negocio.pdb
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\bin\Debug\dominio.dll
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\bin\Debug\dominio.pdb
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\obj\Debug\negocio.dll
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\negocio\obj\Debug\negocio.pdb

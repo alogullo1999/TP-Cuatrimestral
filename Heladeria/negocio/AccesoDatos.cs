@@ -25,7 +25,7 @@ namespace negocio
         public AccesoDatos()
         {
             // Cadena de conexión directa en el código
-            string connectionString = "Data Source=.;Initial Catalog=HELADERIA_DB;Integrated Security=True";
+        string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=HELADERIA_DB;Integrated Security=True";
 
             // Conectar a la base de datos usando la cadena de conexión
             conexion = new SqlConnection(connectionString);
@@ -44,8 +44,6 @@ namespace negocio
             comando.CommandText = sp;
 
         }
-
-
 
         public void ejecutarAccion()
         {

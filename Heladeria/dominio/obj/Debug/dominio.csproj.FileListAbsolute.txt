@@ -1,0 +1,6 @@
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\dominio\bin\Debug\dominio.dll
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\dominio\bin\Debug\dominio.pdb
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\dominio\obj\Debug\dominio.dll
+C:\Users\Adriel\Desktop\TP-Cuatrimestral-Equipo9B\Heladeria\dominio\obj\Debug\dominio.pdb
