@@ -99,6 +99,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GestionCliente.aspx" />
+    <Content Include="GestionHelado.aspx" />
+    <Content Include="GestionStock.aspx" />
     <Content Include="Ventas.aspx" />
     <Content Include="Gestiones.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -187,6 +190,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="GestionCliente.aspx.cs">
+      <DependentUpon>GestionCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionCliente.aspx.designer.cs">
+      <DependentUpon>GestionCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionHelado.aspx.cs">
+      <DependentUpon>GestionHelado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionHelado.aspx.designer.cs">
+      <DependentUpon>GestionHelado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionStock.aspx.cs">
+      <DependentUpon>GestionStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionStock.aspx.designer.cs">
+      <DependentUpon>GestionStock.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ventas.aspx.cs">
       <DependentUpon>Ventas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
