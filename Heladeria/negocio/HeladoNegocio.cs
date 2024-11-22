@@ -72,7 +72,7 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("INSERT INTO (NombreHelado) VALUES (@Nombre)");
+                datos.setearConsulta("INSERT INTO Helados(NombreHelado) VALUES (@Nombre)");
                 datos.setearParametro("@Nombre", helado.NombreHelado);
 
                 datos.ejecutarAccion();

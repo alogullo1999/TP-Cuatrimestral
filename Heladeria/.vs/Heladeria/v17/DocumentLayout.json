@@ -3,19 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo tp cuatrimestral\\tp-cuatrimestral-equipo9b\\heladeria\\negocio\\detalleventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\detalleventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo tp cuatrimestral\\tp-cuatrimestral-equipo9b\\heladeria\\negocio\\empleadonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\empleadonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\empleadonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,11 +11,27 @@
       "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\heladonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\heladonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo tp cuatrimestral\\tp-cuatrimestral-equipo9b\\heladeria\\negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\detalleventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\detalleventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\bonfr\\desktop\\repo tp cuatrimestral\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\gestionhelado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionhelado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionhelado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\heladonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\heladonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionproveedor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -166,37 +166,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DetalleVentaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleVentaNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\DetalleVentaNegocio.cs",
-              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleVentaNegocio.cs",
-              "RelativeToolTip": "negocio\\DetalleVentaNegocio.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:47:05.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EmpleadoNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\EmpleadoNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\EmpleadoNegocio.cs",
               "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\EmpleadoNegocio.cs",
               "RelativeToolTip": "negocio\\EmpleadoNegocio.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T13:54:44.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GestionHelado.aspx.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionHelado.aspx.cs",
               "RelativeDocumentMoniker": "Heladeria\\GestionHelado.aspx.cs",
@@ -204,12 +191,11 @@
               "RelativeToolTip": "Heladeria\\GestionHelado.aspx.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAgwDAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T21:14:44.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T21:14:44.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ClienteNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ClienteNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
@@ -217,12 +203,11 @@
               "RelativeToolTip": "negocio\\ClienteNegocio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T19:10:05.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T19:10:05.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Empleado.cs",
               "RelativeDocumentMoniker": "dominio\\Empleado.cs",
@@ -235,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DetalleVenta.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleVenta.cs",
               "RelativeDocumentMoniker": "dominio\\DetalleVenta.cs",
@@ -243,12 +228,11 @@
               "RelativeToolTip": "dominio\\DetalleVenta.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:55:31.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T19:55:31.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ProductoNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProductoNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ProductoNegocio.cs",
@@ -261,7 +245,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
+              "Title": "HeladoNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\HeladoNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\HeladoNegocio.cs",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\HeladoNegocio.cs",
+              "RelativeToolTip": "negocio\\HeladoNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:41:51.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleVentaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleVentaNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\DetalleVentaNegocio.cs",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleVentaNegocio.cs",
+              "RelativeToolTip": "negocio\\DetalleVentaNegocio.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:47:05.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MarcaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\MarcaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\MarcaNegocio.cs",
@@ -273,19 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HeladoNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\HeladoNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\HeladoNegocio.cs",
-              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\HeladoNegocio.cs",
-              "RelativeToolTip": "negocio\\HeladoNegocio.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAFUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T20:41:51.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GestionCliente.aspx.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCliente.aspx.cs",
               "RelativeDocumentMoniker": "Heladeria\\GestionCliente.aspx.cs",
@@ -297,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GestionHelado.aspx",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionHelado.aspx",
               "RelativeDocumentMoniker": "Heladeria\\GestionHelado.aspx",
@@ -309,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GestionCliente.aspx",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCliente.aspx",
               "RelativeDocumentMoniker": "Heladeria\\GestionCliente.aspx",
@@ -321,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Gestiones.aspx",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Gestiones.aspx",
               "RelativeDocumentMoniker": "Heladeria\\Gestiones.aspx",

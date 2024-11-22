@@ -89,14 +89,14 @@ namespace negocio
             }
         }
 
-        public bool ExisteEmpleado(string nombre)
+        public bool ExisteEmpleado(string Dni)
         {
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.setearConsulta("SELECT COUNT(*) FROM Empleados WHERE Nombre=@nombre");
-                datos.setearParametro("@Nombre", nombre);
+                datos.setearConsulta("SELECT COUNT(*) FROM Empleados WHERE Dni=@dni");
+                datos.setearParametro("@dni", Dni);
                 datos.EjecutarLectura();
 
                 if (datos.Lector.Read() && (int)datos.Lector[0] > 0)
