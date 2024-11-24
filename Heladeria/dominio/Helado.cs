@@ -11,5 +11,9 @@ namespace dominio
        public int IdHelado { get; set; }
         public string NombreHelado { get; set; }
 
+        /*
+         AGREGAR EN LA BBDD la tabla Helados donde tenga los atributos IdHelado y NombreHelado.
+         */
+
     }
 }

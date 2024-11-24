@@ -94,6 +94,8 @@ namespace negocio
             return lector;
         }
 
+        
+
     }
 
 

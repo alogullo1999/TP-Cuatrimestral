@@ -21,10 +21,18 @@ namespace dominio
 
         public string Descripcion { get; set; }
 
+        public decimal Cantidad { get; set; }
+
         public Marca marca { get; set; }
 
         public Proveedor proveedor { get; set; }
 
         public Helado helado { get; set; }
+
+        public Imagen imagen { get; set; }
+
+        /*
+         BBDD -> SE DEBE AGREGAR LA FOREIGN KEY DE IMAGEN (ImagenUrl) en la tabla de Productos
+         */
     }
 }
