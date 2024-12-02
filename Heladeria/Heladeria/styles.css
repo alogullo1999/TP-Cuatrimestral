@@ -1,75 +1,142 @@
-﻿body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('https://mejisa.com/wp-content/uploads/2021/11/heladeria.jpg'); /* Cambia la ruta si es necesario */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+﻿
+<style >
 
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    background-color: rgba(255, 255, 255, 0.8); 
-}
 
-.login-box {
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    //text-align: center;
-}
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://mejisa.com/wp-content/uploads/2021/11/heladeria.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-}
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        background-color: rgba(255, 255, 255, 0.8); 
+    }
 
-.label {
-    display: block;
-    text-align: left;
-    margin-bottom: 8px;
-    font-size: 14px;
-    color: #555;
-}
+    .login-box {
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        //text-align: center;
+    }
 
-.input-field {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+    h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
 
-.login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
+    .label {
+        display: block;
+        text-align: left;
+        margin-bottom: 8px;
+        font-size: 14px;
+        color: #555;
+    }
 
-    .login-button:hover {
-        background-color: #45a049;
+    .input-field {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .login-button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .login-button:hover {
+            background-color: #45a049;
+        }
+
+
+    .text-center {
+        text-align: center; 
     }
 
 
-.text-center {
-    text-align: center; 
-}
+    .gridview {
+        background-color: white;
+        border-collapse: collapse; /* Quita los espacios entre celdas */
+        width: 100%;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Estilo de las celdas */
+    .gridview th, .gridview td {
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    /* Fondo para el encabezado */
+    .gridview th {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+
+    /* Colores alternos en las filas */
+    .gridview tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .gridview tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+    /* Efecto hover */
+    .gridview tr:hover {
+        background-color: #f1f1f1;
+    }
 
 
+    .table {
+        background-color: white; /* Fondo blanco */
+        border-collapse: collapse; /* Elimina el espacio entre las celdas */
+        border: 1px solid #ddd; /* Bordes grises */
+        width: 100%;
+    }
 
+        .table th {
+            background-color: #4CAF50; /* Fondo del encabezado */
+            color: white; /* Texto blanco en el encabezado */
+            padding: 10px;
+            text-align: left;
+        }
 
+        .table td {
+            padding: 10px;
+            border: 1px solid #ddd; /* Bordes entre las celdas */
+        }
 
+        /* Alternar colores en las filas */
+        .table tr:nth-child(even) {
+            background-color: white; /* Fondo gris claro para filas pares */
+        }
 
+        .table tr:hover {
+            background-color: #f1f1f1; /* Color de fondo al pasar el mouse */
+        }
+
+</style >

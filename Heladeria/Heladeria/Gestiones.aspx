@@ -4,7 +4,7 @@
     <main aria-labelledby="title">
         <h3>Gestiones</h3>
 
-
+<div class="button-container">
         <!-- Botón para Gestionar Proveedores -->
         <asp:Button ID="btnGestionarProveedores" runat="server" Text="Gestionar Proveedores" CssClass="btn btn-primary" OnClick="btnGestionarProveedores_Click" />
         
@@ -26,7 +26,7 @@
         <!-- Botón para Gestionar Clientes -->
         <asp:Button ID="btnGestionarClientes" runat="server" Text="Gestionar Clientes" CssClass="btn btn-primary" OnClick="btnGestionarClientes_Click" />
 
-
+    </div>
 
     </main>
 </asp:Content>

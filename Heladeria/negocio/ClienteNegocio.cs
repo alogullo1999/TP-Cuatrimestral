@@ -3,35 +3,40 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Timers;
 using dominio;
 
 namespace negocio
 {
     public class ClienteNegocio
     {
-        public Cliente ObtenerCliente(int id)
+        public List<Cliente> listarCliente()
         {
-            AccesoDatos datos= new AccesoDatos();
-            Cliente cliente= new Cliente();
+            AccesoDatos datos = new AccesoDatos();
+            List<Cliente> listaClientes = new List<Cliente>();
 
             try
             {
-                datos.setearConsulta("SELECT IdCliente,Nombre,Apellido,Dni,Email,Ciudad FROM Clientes;");
-                datos.setearParametro("@id", id);
+                datos.setearConsulta("SELECT IdCliente, Nombre, Apellido, Dni, Email, Ciudad FROM Clientes;");
+                datos.EjecutarLectura();
 
-                if (datos.Lector.Read())
+                while (datos.Lector.Read())
                 {
-                    cliente.IdCliente = (int)datos.Lector["IdCliente"];
-                    cliente.Nombre = (string)datos.Lector["Nombre"];
-                    cliente.Apellido = (string)datos.Lector["Apellido"];
-                    cliente.Dni = (string)datos.Lector["Dni"];
-                    cliente.Email = (string)datos.Lector["Email"];
-                    cliente.Ciudad = (string)datos.Lector["Ciudad"];
+                    Cliente cliente = new Cliente
+                    {
+                        IdCliente = (int)datos.Lector["IdCliente"],
+                        Nombre = (string)datos.Lector["Nombre"],
+                        Apellido = (string)datos.Lector["Apellido"],
+                        Dni = (string)datos.Lector["Dni"],
+                        Email = (string)datos.Lector["Email"],
+                        Ciudad = (string)datos.Lector["Ciudad"]
+                    };
+
+                    listaClientes.Add(cliente);
                 }
-                return cliente;
+
+                return listaClientes;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -43,7 +48,7 @@ namespace negocio
 
         public bool ExisteCliente(string nombre)
         {
-            AccesoDatos datos= new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos();
 
             try
             {
@@ -51,13 +56,13 @@ namespace negocio
                 datos.setearParametro("@Nombre", nombre);
                 datos.EjecutarLectura();
 
-                if (datos.Lector.Read() && (int)datos.Lector[0]>0)
+                if (datos.Lector.Read() && (int)datos.Lector[0] > 0)
                 {
                     return true;
                 }
                 return false;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -70,7 +75,7 @@ namespace negocio
         public void AgregarCliente(Cliente cliente)
         {
             if (string.IsNullOrWhiteSpace(cliente.Nombre))
-            throw new ArgumentException("El nombre del cliente es obligatorio");
+                throw new ArgumentException("El nombre del cliente es obligatorio");
 
             if (string.IsNullOrWhiteSpace(cliente.Apellido))
                 throw new ArgumentException("El apellido del cliente es obligatorio");
@@ -98,14 +103,34 @@ namespace negocio
 
                 datos.ejecutarAccion();
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 throw ex;
             }
             finally
             {
                 datos.cerrarConexion();
             }
-            
+        }
+
+        public void eliminarCliente(int idCliente)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("DELETE FROM Clientes WHERE IdCliente = @IdCliente");
+                datos.setearParametro("@IdCliente", idCliente);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
         }
     }
 }
