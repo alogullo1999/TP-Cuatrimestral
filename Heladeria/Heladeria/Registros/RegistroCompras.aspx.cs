@@ -16,7 +16,7 @@ namespace Heladeria
             }
         }
 
-        private void CargarDetalleCompras()
+        private void CargarDetalleCompras(string fechaCompra=null, string idProducto=null)
         {
 
             AccesoDatos datos = new AccesoDatos();
@@ -24,9 +24,24 @@ namespace Heladeria
 
             try
             {
-                datos.setearConsulta(@"SELECT FechaCompra, IdProveedor, IdProducto, Cantidad, PrecioUnitario, TotalCompra  FROM DetalleCompras");
+                string query = "@SELECT FechaCompra,IdCompra,IdProveedor,IdProducto,Cantidad,PrecioUnitario,TotalCompra FROM DetalleComppras WHERE 1=1";
+
+                if (!string.IsNullOrWhiteSpace(fechaCompra))
+                {
+                    query += " AND CONVERT(VARCHAR, FechaVenta, 23) = @FechaVenta";
+                    datos.setearParametro("@FechaVenta", fechaCompra);
+                }
+
+                if (!string.IsNullOrWhiteSpace(idProducto))
+                {
+                    query += " AND IdProducto=@IdProducto";
+                    datos.setearParametro("@IdProducto", idProducto);
+                }
+
+                datos.setearConsulta(query);
                 datos.EjecutarLectura();
-                dt.Load(datos.Lector); 
+
+                dt.Load(datos.Lector);
 
                 gvDetalleCompras.DataSource = dt;
                 gvDetalleCompras.DataBind();
@@ -39,6 +54,22 @@ namespace Heladeria
             {
                 datos.cerrarConexion();
             }
+        }
+
+        protected void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            string FechaCompra = txtFechaCompra.Text.Trim();
+            string idProducto = txtIdCliente.Text.Trim();
+
+            CargarDetalleCompras(FechaCompra,idProducto);
+        }
+
+        protected void btnLimpiarClick(object sender, EventArgs e) {
+            txtFechaCompra.Text = string.Empty;
+            txtIdCliente.Text = string.Empty;
+
+            CargarDetalleCompras();
+        
         }
     }
 }

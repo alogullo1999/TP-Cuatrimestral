@@ -5,8 +5,21 @@
         <div class="row mb-3">
             <div class="col text-center">
                 <div class="row mb-3">
+                    <asp:Label ID="lblFecha" runat="server" Text="Fecha de Compra:" CssClass="form-label"></asp:Label>
+                    <asp:TextBox ID="txtFechaCompra" runat="server" CssClass="form-control" PlaceHolder="YYYY-MM-DD"></asp:TextBox>
+                </div>
+                <div class="col-md-3">
+                    <asp:Label ID="lblCliente" runat="server" Text="IdCliente" CssClass="form-label"></asp:Label>
+                    <asp:TextBox ID="txtIdCliente" runat="server" CssClass="form-control"></asp:TextBox>
+                </div>
+                <div class="col-md-3 align-self-end">
+                    <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" CssClass="btn btn-primary mx-2" OnClick="btnFiltrar_Click" />
+                    <asp:Button ID="btnLimpiar" runat="server" Text="Limpirar" CssClass="btn btn-secondary" OnClick="btnLimpiar_Click" />
+                </div>
+            </div>
         </div>
-        <div class="row">
+    </div>
+    <div class="row">
             <div class="col">
                 <div class="card shadow p-4">
                     <h3 class="text-center mb-4">Gestión de Compras</h3>
