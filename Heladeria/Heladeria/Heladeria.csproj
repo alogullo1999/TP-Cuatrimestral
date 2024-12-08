@@ -99,10 +99,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GestionCliente.aspx" />
-    <Content Include="GestionHelado.aspx" />
+    <Content Include="AltaProducto.aspx" />
+    <Content Include="Clientes\GestionCliente.aspx" />
+    <Content Include="GestionarCategorias.aspx" />
+    <Content Include="GestionarMarcas.aspx" />
     <Content Include="GestionStock.aspx" />
-    <Content Include="Ventas.aspx" />
+    <Content Include="Producto.aspx" />
+    <Content Include="Proveedor\RegistroProveedor.aspx" />
+    <Content Include="Registros\RegistroCompras.aspx" />
+    <Content Include="Registros\RegistroVentas.aspx" />
     <Content Include="Gestiones.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -152,10 +157,11 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="GestionProveedor.aspx" />
-    <Content Include="RegistroClientes.aspx" />
+    <Content Include="Proveedor\GestionProveedor.aspx" />
+    <Content Include="Clientes\RegistroClientes.aspx" />
     <Content Include="GestionVentas.aspx" />
     <Content Include="GestionCompras.aspx" />
+    <Content Include="Clientes\ModificarCliente.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -191,20 +197,34 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltaProducto.aspx.cs">
+      <DependentUpon>AltaProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AltaProducto.aspx.designer.cs">
+      <DependentUpon>AltaProducto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="GestionCliente.aspx.cs">
+    <Compile Include="Clientes\GestionCliente.aspx.cs">
       <DependentUpon>GestionCliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GestionCliente.aspx.designer.cs">
+    <Compile Include="Clientes\GestionCliente.aspx.designer.cs">
       <DependentUpon>GestionCliente.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GestionHelado.aspx.cs">
-      <DependentUpon>GestionHelado.aspx</DependentUpon>
+    <Compile Include="GestionarCategorias.aspx.cs">
+      <DependentUpon>GestionarCategorias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GestionHelado.aspx.designer.cs">
-      <DependentUpon>GestionHelado.aspx</DependentUpon>
+    <Compile Include="GestionarCategorias.aspx.designer.cs">
+      <DependentUpon>GestionarCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarMarcas.aspx.cs">
+      <DependentUpon>GestionarMarcas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarMarcas.aspx.designer.cs">
+      <DependentUpon>GestionarMarcas.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionStock.aspx.cs">
       <DependentUpon>GestionStock.aspx</DependentUpon>
@@ -213,12 +233,33 @@
     <Compile Include="GestionStock.aspx.designer.cs">
       <DependentUpon>GestionStock.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ventas.aspx.cs">
-      <DependentUpon>Ventas.aspx</DependentUpon>
+    <Compile Include="Producto.aspx.cs">
+      <DependentUpon>Producto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ventas.aspx.designer.cs">
-      <DependentUpon>Ventas.aspx</DependentUpon>
+    <Compile Include="Producto.aspx.designer.cs">
+      <DependentUpon>Producto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor\RegistroProveedor.aspx.cs">
+      <DependentUpon>RegistroProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proveedor\RegistroProveedor.aspx.designer.cs">
+      <DependentUpon>RegistroProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\RegistroCompras.aspx.cs">
+      <DependentUpon>RegistroCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registros\RegistroCompras.aspx.designer.cs">
+      <DependentUpon>RegistroCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\RegistroVentas.aspx.cs">
+      <DependentUpon>RegistroVentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registros\RegistroVentas.aspx.designer.cs">
+      <DependentUpon>RegistroVentas.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Gestiones.aspx.cs">
@@ -260,18 +301,18 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="GestionProveedor.aspx.cs">
+    <Compile Include="Proveedor\GestionProveedor.aspx.cs">
       <DependentUpon>GestionProveedor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GestionProveedor.aspx.designer.cs">
+    <Compile Include="Proveedor\GestionProveedor.aspx.designer.cs">
       <DependentUpon>GestionProveedor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RegistroClientes.aspx.cs">
+    <Compile Include="Clientes\RegistroClientes.aspx.cs">
       <DependentUpon>RegistroClientes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="RegistroClientes.aspx.designer.cs">
+    <Compile Include="Clientes\RegistroClientes.aspx.designer.cs">
       <DependentUpon>RegistroClientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionVentas.aspx.cs">
@@ -287,6 +328,13 @@
     </Compile>
     <Compile Include="GestionCompras.aspx.designer.cs">
       <DependentUpon>GestionCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\ModificarCliente.aspx.cs">
+      <DependentUpon>ModificarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clientes\ModificarCliente.aspx.designer.cs">
+      <DependentUpon>ModificarCliente.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

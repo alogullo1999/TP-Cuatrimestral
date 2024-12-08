@@ -1,0 +1,14 @@
+# Carpetas generadas por Visual Studio
+.vs/
+packages/
+bin/
+obj/
+
+# Archivos de usuario
+*.user
+*.suo
+*.sln.docstates
+
+# Otros
+*.log
+*.tmp

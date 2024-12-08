@@ -74,30 +74,50 @@ namespace negocio
 
         public void AgregarCliente(Cliente cliente)
         {
-            if (string.IsNullOrWhiteSpace(cliente.Nombre))
-                throw new ArgumentException("El nombre del cliente es obligatorio");
-
-            if (string.IsNullOrWhiteSpace(cliente.Apellido))
-                throw new ArgumentException("El apellido del cliente es obligatorio");
-
-            if (string.IsNullOrWhiteSpace(cliente.Dni))
-                throw new ArgumentException("El Dni del cliente es obligatorio");
-
-            if (string.IsNullOrWhiteSpace(cliente.Email))
-                throw new ArgumentException("El Email del cliente es obligatorio");
-
-            if (string.IsNullOrWhiteSpace(cliente.Ciudad))
-                throw new ArgumentException("La ciudad del cliente es obligatorio");
-
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.setearConsulta(@"INSERT INTO Cliente(Dni,Nombre,Apellido,Email,Ciudad) VALUES (@Dni,@Nombre,@Apellido,@Email,@Ciudad)");
+                datos.setearConsulta(@"INSERT INTO Clientes (Dni, Nombre, Apellido, Email, Ciudad)
+                               VALUES (@Dni, @Nombre, @Apellido, @Email, @Ciudad)");
 
                 datos.setearParametro("@Dni", cliente.Dni);
                 datos.setearParametro("@Nombre", cliente.Nombre);
                 datos.setearParametro("@Apellido", cliente.Apellido);
+                datos.setearParametro("@Email", cliente.Email);
+                datos.setearParametro("@Ciudad", cliente.Ciudad);
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al intentar agregar un cliente: " + ex.Message, ex);
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void modificarCliente(Cliente cliente)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta(@"UPDATE Clientes 
+                               
+                               SET Nombre = @Nombre, 
+                                   Apellido = @Apellido, 
+                                   Dni = @Dni, 
+                                   Email = @Email, 
+                                   Ciudad = @Ciudad 
+                               WHERE IdCliente = @IdCliente");
+
+                datos.setearParametro("@IdCliente", cliente.IdCliente);
+                datos.setearParametro("@Nombre", cliente.Nombre);
+                datos.setearParametro("@Apellido", cliente.Apellido);
+                datos.setearParametro("@Dni", cliente.Dni);
                 datos.setearParametro("@Email", cliente.Email);
                 datos.setearParametro("@Ciudad", cliente.Ciudad);
 
@@ -112,6 +132,8 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
+
+
 
         public void eliminarCliente(int idCliente)
         {
@@ -132,5 +154,52 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
+
+
+
+
+
+        public Cliente obtenerClientePorId(int idCliente)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Cliente cliente = null;
+
+            try
+            {
+                datos.setearConsulta("SELECT IdCliente, Nombre, Apellido, Dni, Email, Ciudad FROM Clientes WHERE IdCliente = @IdCliente");
+                datos.setearParametro("@IdCliente", idCliente);
+                datos.EjecutarLectura();
+
+                if (datos.Lector.Read())
+                {
+                    cliente = new Cliente
+                    {
+                        IdCliente = (int)datos.Lector["IdCliente"],
+                        Nombre = (string)datos.Lector["Nombre"],
+                        Apellido = (string)datos.Lector["Apellido"],
+                        Dni = (string)datos.Lector["Dni"],
+                        Email = (string)datos.Lector["Email"],
+                        Ciudad = (string)datos.Lector["Ciudad"]
+                    };
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+            return cliente;
+        }
+
+
+
+
+
+
+
     }
 }

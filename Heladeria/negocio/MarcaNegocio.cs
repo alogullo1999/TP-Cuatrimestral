@@ -10,7 +10,7 @@ namespace negocio
 {
     public class MarcaNegocio
     {
-        public List<Marca> listar()
+        public List<Marca> listarMarca()
         {
             List<Marca> lista = new List<Marca>();
             AccesoDatos datos = new AccesoDatos();
@@ -18,7 +18,7 @@ namespace negocio
             try
             {
                 datos.setearConsulta("SELECT IdMarca,Nombre FROM Marcas");
-                datos.ejecutarAccion();
+                datos.EjecutarLectura();
 
                 while (datos.Lector.Read())
                 {
@@ -85,14 +85,14 @@ namespace negocio
         
         }
 
-        public void Eliminar(int id)
+        public void Eliminar(int IdMarca)
         {
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
                 datos.setearConsulta("DELETE FROM Marcas where IdMarca=@id");
-                datos.setearParametro("@id", id);
+                datos.setearParametro("@id", IdMarca);
                 datos.ejecutarAccion();
             }
             catch (Exception ex) {

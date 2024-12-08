@@ -53,7 +53,7 @@ namespace Heladeria
         protected void btnGestionarClientes_Click(object sender, EventArgs e)
         {
             // Redireccionar a la página de gestión de proveedores
-            Response.Redirect("GestionCliente.aspx");
+            Response.Redirect("Clientes/GestionCliente.aspx");
         }
 
 

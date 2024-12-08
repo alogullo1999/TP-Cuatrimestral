@@ -27,12 +27,9 @@ namespace dominio
 
         public Proveedor proveedor { get; set; }
 
-        public Helado helado { get; set; }
+        public Categoria categoria { get; set; }
+        public Imagen imagenUrl { get; set; }
 
-        public Imagen imagen { get; set; }
 
-        /*
-         BBDD -> SE DEBE AGREGAR LA FOREIGN KEY DE IMAGEN (ImagenUrl) en la tabla de Productos
-         */
     }
 }
