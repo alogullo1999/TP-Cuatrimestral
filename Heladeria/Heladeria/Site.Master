@@ -59,6 +59,10 @@
                     <a class="nav-link fw-bold text-white" runat="server" href="~/GestionVentas">Vender</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" runat="server" href="~/Factura">Generar Factura</a>
+                </li>
+
 
                 <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle fw-bold text-white" href="#" id="registrosDropdown" role="button" 

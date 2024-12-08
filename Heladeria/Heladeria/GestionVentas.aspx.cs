@@ -61,27 +61,30 @@ namespace Heladeria
 
             try
             {
-                int IdEmpleado = int.Parse(ddlEmpleado.SelectedValue);
+                int idEmpleado = int.Parse(ddlEmpleado.SelectedValue);
                 int idCliente = int.Parse(ddlCliente.SelectedValue);
                 int idProducto = int.Parse(ddlProducto.SelectedValue);
                 int cantidad = int.Parse(txtCantidad.Text);
-                int Sabores = int.Parse(txtSabores.Text);
+                int sabores = int.Parse(txtSabores.Text);
                 decimal precioUnitario = decimal.Parse(txtPrecioUnitario.Text);
 
 
+                datos.setearConsulta(@"INSERT INTO DetalleVentas (FechaVenta, IdCliente, IdEmpleado, IdProducto, Sabores, Cantidad, PrecioUnitario)
 
-                datos.setearConsulta(@"INSERT INTO DetalleVentas(FechaVenta, IdCliente, Sabores, IdEmpleado ,IdProducto, Cantidad, PrecioUnitario)
-                                     VALUES(GETDATE(), @IdCliente, @IdEmpleado, @IdProducto, @Sabores, @Cantidad, @PrecioUnitario)");
+                               VALUES (GETDATE(), @IdCliente, @IdEmpleado, @IdProducto, @Sabores, @Cantidad, @PrecioUnitario)");
 
                 datos.setearParametro("@IdCliente", idCliente);
-                datos.setearParametro("@IdEmpleado", IdEmpleado);
+                datos.setearParametro("@IdEmpleado", idEmpleado);
                 datos.setearParametro("@IdProducto", idProducto);
                 datos.setearParametro("@Cantidad", cantidad);
                 datos.setearParametro("@PrecioUnitario", precioUnitario);
-                datos.setearParametro("@Sabores", Sabores);
+                datos.setearParametro("@Sabores", sabores);
 
                 datos.ejecutarAccion();
                 CargarStock();
+
+
+
             }
             catch (Exception ex)
             {
@@ -91,8 +94,8 @@ namespace Heladeria
             {
                 datos.cerrarConexion();
             }
-
         }
+
 
 
 

@@ -88,6 +88,9 @@ namespace Heladeria
 
                 datos.ejecutarAccion();
                 CargarStock();
+
+
+
             }
             catch (Exception ex)
             {

@@ -5,7 +5,7 @@
         <div class="row mb-3">
             <div class="col text-center">
                 <div class="row mb-3">
-                    <!-- Filtros -->
+
                     <div class="col-md-3">
                         <asp:Label ID="lblFecha" runat="server" Text="Fecha de Venta:" CssClass="form-label"></asp:Label>
                         <asp:TextBox ID="txtFechaVenta" runat="server" CssClass="form-control" Placeholder="YYYY-MM-DD"></asp:TextBox>

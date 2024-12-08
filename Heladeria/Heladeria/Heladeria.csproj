@@ -101,6 +101,7 @@
   <ItemGroup>
     <Content Include="AltaProducto.aspx" />
     <Content Include="Clientes\GestionCliente.aspx" />
+    <Content Include="Factura.aspx" />
     <Content Include="GestionarCategorias.aspx" />
     <Content Include="GestionarMarcas.aspx" />
     <Content Include="GestionStock.aspx" />
@@ -211,6 +212,13 @@
     </Compile>
     <Compile Include="Clientes\GestionCliente.aspx.designer.cs">
       <DependentUpon>GestionCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Factura.aspx.cs">
+      <DependentUpon>Factura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Factura.aspx.designer.cs">
+      <DependentUpon>Factura.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionarCategorias.aspx.cs">
       <DependentUpon>GestionarCategorias.aspx</DependentUpon>
