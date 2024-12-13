@@ -15,5 +15,7 @@ namespace dominio
         public int IdProveedor { get; set; }
 
         public int IdProducto { get; set; }
+
+
     }
 }

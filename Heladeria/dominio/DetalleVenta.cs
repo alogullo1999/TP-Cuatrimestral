@@ -25,5 +25,7 @@ namespace dominio
         public decimal PrecioUnitario { get; set; }
 
         public decimal TotalVenta { get; set; }
+
+       
     }
 }
