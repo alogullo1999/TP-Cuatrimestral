@@ -10,6 +10,33 @@ namespace negocio
     public class DetalleCompraNegocio
     {
 
+        public void AgregarDetalleCompra(DetalleCompra detallleCompra)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("INSERT INTO DetalleCompras(FechaCompra,IdCompra,IdProveedor,IdProducto,Cantidad,PrecioUnitario,TotalCompra) VALUES (@Fecha,@IdCompra,@IdProveedor,@IdProducto,@Cantidad,@Precio,@Total)");
+                datos.setearParametro("@Fecha", detallleCompra.FechaCompra);
+                datos.setearParametro("@IdCompra", detallleCompra.IdCompra);
+                datos.setearParametro("@IdProveedor", detallleCompra.IdProveedor);
+                datos.setearParametro("@IdProducto", detallleCompra.IdProducto);
+                datos.setearParametro("@Cantidad", detallleCompra.Cantidad);
+                datos.setearParametro("@Precio", detallleCompra.PrecioUnitario);
+                datos.setearParametro("@Total", detallleCompra.TotalCompra);
+
+                datos.ejecutarAccion();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
         public void EliminarDetalleCompra(int id)
         {
             AccesoDatos datos = new AccesoDatos();

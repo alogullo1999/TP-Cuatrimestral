@@ -16,6 +16,11 @@ namespace dominio
 
         public int IdProducto { get; set; }
 
+        public int Cantidad { get; set; }
+
+        public Decimal PrecioUnitario { get; set; }
+
+        public Decimal TotalCompra => Cantidad * PrecioUnitario;
 
     }
 }

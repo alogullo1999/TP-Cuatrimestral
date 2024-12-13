@@ -26,6 +26,6 @@ namespace dominio
 
         public decimal TotalVenta { get; set; }
 
-       
+        public int Sabor { get; set; }
     }
 }
