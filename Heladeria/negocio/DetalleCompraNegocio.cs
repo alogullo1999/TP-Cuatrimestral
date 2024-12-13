@@ -9,6 +9,40 @@ namespace negocio
 {
     public class DetalleCompraNegocio
     {
+        public List<DetalleCompra> listar()
+        {
+            List<DetalleCompra> lista= new List<DetalleCompra>();
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("SELECT FechaCompra,IdCompra,IdProveedor,IdProducto,Cantidad,PrecioUnitario,TotalCompra FROM DetalleCompras");
+                datos.EjecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    DetalleCompra aux = new DetalleCompra
+                    {
+                        FechaCompra = (DateTime)datos.Lector["Fecha de Compra"],
+                        IdCompra = (int)datos.Lector["IdCompra"],
+                        IdProveedor = (int)datos.Lector["IdProveedor"],
+                        IdProducto = (int)datos.Lector["IdProducto"],
+                        Cantidad = (int)datos.Lector["Cantidad"],
+                        PrecioUnitario = (decimal)datos.Lector["Precio Unitario"]
+                    };
+                    lista.Add(aux);
+                }
+                return lista;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
 
         public void AgregarDetalleCompra(DetalleCompra detallleCompra)
         {

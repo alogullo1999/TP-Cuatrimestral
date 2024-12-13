@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\detallecompranegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\detallecompranegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|c:\\users\\bonfr\\desktop\\repo tp cuatrimestral\\tp-cuatrimestral-equipo9b\\heladeria\\dominio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo tp cuatrimestral\\tp-cuatrimestral-equipo9b\\heladeria\\negocio\\detallecompranegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\detallecompranegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -245,17 +245,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DetalleCompraNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleCompraNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetalleCompraNegocio.cs",
               "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleCompraNegocio.cs",
               "RelativeToolTip": "negocio\\DetalleCompraNegocio.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T15:51:41.144Z",
               "EditorCaption": ""
@@ -270,12 +270,11 @@
               "RelativeToolTip": "dominio\\DetalleVenta.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:46:43.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T15:46:43.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DetalleCompra.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO TP CUATRIMESTRAL\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleCompra.cs",
               "RelativeDocumentMoniker": "dominio\\DetalleCompra.cs",
