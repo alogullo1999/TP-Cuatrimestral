@@ -5,10 +5,10 @@
         <asp:Button ID="btnGestionarMarca" runat="server" Text="Agregar Marca" CssClass="btn btn-primary mb-4" OnClick="btnGestionarMarca_Click" />
 
 
-        <asp:Button ID="btnGestionarCategoria" runat="server" Text="Agregar Marca" CssClass="btn btn-primary mb-4" OnClick="btnGestionarCategoria_Click" />
+        <asp:Button ID="btnGestionarCategoria" runat="server" Text="Agregar Categoria" CssClass="btn btn-primary mb-4" OnClick="btnGestionarCategoria_Click" />
 
 
-        <asp:Button ID="btnAgregarProducto" runat="server" Text="Agregar Marca" CssClass="btn btn-primary mb-4" OnClick="btnAgregarProducto_Click" />
+        <asp:Button ID="btnAgregarProducto" runat="server" Text="Agregar Producto" CssClass="btn btn-primary mb-4" OnClick="btnAgregarProducto_Click" />
 
         <div class="row">
             <div class="col">

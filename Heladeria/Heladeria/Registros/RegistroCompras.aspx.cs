@@ -24,12 +24,12 @@ namespace Heladeria
 
             try
             {
-                string query = "@SELECT FechaCompra,IdCompra,IdProveedor,IdProducto,Cantidad,PrecioUnitario,TotalCompra FROM DetalleComppras WHERE 1=1";
+                string query = @"SELECT FechaCompra,IdCompra,IdProveedor,IdProducto,Cantidad,PrecioUnitario,TotalCompra FROM DetalleCompras WHERE 1=1";
 
                 if (!string.IsNullOrWhiteSpace(fechaCompra))
                 {
-                    query += " AND CONVERT(VARCHAR, FechaVenta, 23) = @FechaVenta";
-                    datos.setearParametro("@FechaVenta", fechaCompra);
+                    query += " AND CONVERT(VARCHAR, FechaCompra, 23) = @FechaCompra";
+                    datos.setearParametro("@FechaCompra", fechaCompra);
                 }
 
                 if (!string.IsNullOrWhiteSpace(idProducto))
@@ -64,7 +64,7 @@ namespace Heladeria
             CargarDetalleCompras(FechaCompra,idProducto);
         }
 
-        protected void btnLimpiarClick(object sender, EventArgs e) {
+        protected void btnLimpiar_Click(object sender, EventArgs e) {
             txtFechaCompra.Text = string.Empty;
             txtIdCliente.Text = string.Empty;
 
