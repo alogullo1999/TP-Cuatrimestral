@@ -104,6 +104,7 @@
     <Content Include="Factura.aspx" />
     <Content Include="GestionarCategorias.aspx" />
     <Content Include="GestionarMarcas.aspx" />
+    <Content Include="GestionImagen.aspx" />
     <Content Include="GestionStock.aspx" />
     <Content Include="Producto.aspx" />
     <Content Include="Proveedor\RegistroProveedor.aspx" />
@@ -233,6 +234,13 @@
     </Compile>
     <Compile Include="GestionarMarcas.aspx.designer.cs">
       <DependentUpon>GestionarMarcas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionImagen.aspx.cs">
+      <DependentUpon>GestionImagen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionImagen.aspx.designer.cs">
+      <DependentUpon>GestionImagen.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionStock.aspx.cs">
       <DependentUpon>GestionStock.aspx</DependentUpon>

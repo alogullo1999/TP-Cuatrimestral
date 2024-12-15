@@ -87,8 +87,9 @@
                         <li><a class="dropdown-item" runat="server" href="~/GestionCompras.aspx">Gestión de Compras</a></li>
                         <li><a class="dropdown-item" runat="server" href="~/GestionVentas.aspx">Gestión de Ventas</a></li>
                         <li><a class="dropdown-item" runat="server" href="~/Producto.aspx">Gestión de Productos</a></li>
-                        <li><a class="dropdown-item" runat="server" href="~/GestionMarcas.aspx">Gestión de Marcas</a></li>
-                        <li><a class="dropdown-item" runat="server" href="~/GestionCategorias.aspx">Gestión de Categorias</a></li>
+                        <li><a class="dropdown-item" runat="server" href="~/GestionarMarcas.aspx">Gestión de Marcas</a></li>
+                        <li><a class="dropdown-item" runat="server" href="~/GestionarCategorias.aspx">Gestión de Categorias</a></li>
+                        <li><a class="dropdown-item" runat="server" href="~/GestionImagen.aspx">Gestión de Imagenes</a></li>
                     </ul>
                 </li>
             </ul>

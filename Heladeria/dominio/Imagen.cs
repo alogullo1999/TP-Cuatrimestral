@@ -14,6 +14,8 @@ namespace dominio
 
         public string UrlImagen { get; set; }
 
+        public string NombreProducto { get; set; }
+
         public override string ToString()
         {
             return UrlImagen;

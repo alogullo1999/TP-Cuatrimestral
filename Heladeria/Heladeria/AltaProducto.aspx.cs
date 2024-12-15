@@ -22,7 +22,7 @@ namespace Heladeria
                 CargarMarca();
                 CargarProveedor();
                 CargarImagen();
-                MostrarImagenes();
+               
 
             }
         }
@@ -106,17 +106,6 @@ namespace Heladeria
         }
 
 
-
-        private void MostrarImagenes()
-        {
-            ImagenNegocio imagenNegocio = new ImagenNegocio();
-
-   
-            List<Imagen> listaImagenes = imagenNegocio.listarImagen();
-
-            rptImagenes.DataSource = listaImagenes;
-            rptImagenes.DataBind();
-        }
 
 
 

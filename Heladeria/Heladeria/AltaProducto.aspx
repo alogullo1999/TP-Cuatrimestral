@@ -54,7 +54,7 @@
                     </div>
                     
                     <div class="form-group">
-                        <label for="ddlImagen">URL de Imagen:</label>
+                        <label for="ddlImagen">URL de Imagen:<label for="ddlImagenes">Seleccionar Imagen:</label></label>
                         <asp:DropDownList ID="ddlImagen" runat="server" CssClass="form-control">
                     
                         </asp:DropDownList>
@@ -62,15 +62,9 @@
 
 
                     <div class="form-group">
-                         <label for="ddlImagenes">Seleccionar Imagen:</label>
-                          <asp:Repeater ID="rptImagenes" runat="server">
-                                   <ItemTemplate>
-                                    <div class="form-check">
-                                    <input type="radio" name="imagenes" value='<%# Eval("Id") %>' class="form-check-input" />
-                                    <img src='<%# Eval("UrlImagen") %>' alt="Imagen" style="width: 50px; height: 50px;" />
-                                    </div>
-                                 </ItemTemplate>
-                         </asp:Repeater>
+                         <asp:FileUpload ID="FileUpload1" runat="server" />
+&nbsp;<label for="txtDescripcion"><asp:Image ID="Image1" runat="server" Height="179px" Width="223px" />
+                         </label>
                     </div>
 
 
