@@ -69,6 +69,15 @@ namespace Heladeria
         protected global::System.Web.UI.WebControls.TextBox txtPrecioUnitario;
 
         /// <summary>
+        /// Control ddlProductoPrecio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlProductoPrecio;
+
+        /// <summary>
         /// Control btnRealizarVenta.
         /// </summary>
         /// <remarks>
@@ -78,12 +87,30 @@ namespace Heladeria
         protected global::System.Web.UI.WebControls.Button btnRealizarVenta;
 
         /// <summary>
-        /// Control gvStock.
+        /// Control btnFinalizarVenta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvStock;
+        protected global::System.Web.UI.WebControls.Button btnFinalizarVenta;
+
+        /// <summary>
+        /// Control lblError.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
+
+        /// <summary>
+        /// Control gvResumenVenta.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvResumenVenta;
     }
 }

@@ -3,8 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\registros\\registroventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\registros\\registroventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\registros\\registroventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\registros\\registroventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\proveedor\\gestionproveedor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\proveedor\\gestionproveedor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\registros\\registrocompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\registros\\registrocompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\registros\\registrocompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\registros\\registrocompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\factura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\factura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\factura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\factura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\altaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\altaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\altaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\altaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionventas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionventas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\clientes\\gestioncliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\clientes\\gestioncliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\clientes\\gestioncliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\clientes\\gestioncliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\proveedornegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\proveedornegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\proveedor\\gestionproveedor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\proveedor\\gestionproveedor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionstock.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionstock.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionstock.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionstock.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestioncompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestioncompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestioncompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestioncompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionarmarcas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionarmarcas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\gestionimagen.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionimagen.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\altaproducto.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\altaproducto.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\producto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\producto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\producto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\producto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\gestionimagen.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -15,36 +127,12 @@
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionarcategorias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionarmarcas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionarmarcas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestioncompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestioncompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\producto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\producto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\altaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\altaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\producto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\producto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,40 +151,8 @@
       "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\altaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\altaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\altaproducto.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\altaproducto.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\altaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\altaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\heladeria\\registros\\registrocompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\registros\\registrocompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\registros\\registroventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\registros\\registroventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\registros\\registrocompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\registros\\registrocompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestioncompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestioncompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|c:\\users\\adriel\\desktop\\tp-cuatrimestral-equipo9b\\heladeria\\negocio\\detallecompranegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,14 +179,6 @@
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\factura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\factura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\factura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\factura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -143,24 +191,8 @@
       "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\clientes\\registroclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\clientes\\registroclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\clientes\\gestioncliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\clientes\\gestioncliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\clientes\\gestioncliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\clientes\\gestioncliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\clientes\\registroclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -171,24 +203,8 @@
       "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionarmarcas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionstock.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionstock.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionstock.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionstock.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\proveedornegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\proveedornegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18EAF8E8-C4AE-4DF5-BAB3-113ED79618BE}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -197,10 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\empleadonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D429152A-C965-47DA-BFDE-05635FA879EC}|negocio\\negocio.csproj|solutionrelative:negocio\\empleadonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestionventas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\gestionventas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A50D49E-E8AA-4EDF-857E-6B096D8BB236}|Heladeria\\Heladeria.csproj|C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\heladeria\\gestiones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -274,296 +286,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AltaProducto.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs",
-              "RelativeToolTip": "Heladeria\\AltaProducto.aspx.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAiwFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T12:39:25.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Imagen.cs",
-              "RelativeToolTip": "dominio\\Imagen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:55:31.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Site.Master",
-              "RelativeDocumentMoniker": "Heladeria\\Site.Master",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Site.Master",
-              "RelativeToolTip": "Heladeria\\Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-26T19:55:31.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GestionImagen.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionImagen.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.cs*",
-              "RelativeToolTip": "Heladeria\\GestionImagen.aspx.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAFAAAAAAAAAA==",
+              "Title": "GestionVentas.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionVentas.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.cs",
+              "RelativeToolTip": "Heladeria\\GestionVentas.aspx.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAA1wLQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T12:24:08.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionImagen.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\GestionImagen.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx*",
-              "RelativeToolTip": "Heladeria\\GestionImagen.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T12:18:37.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GestionCompras.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\GestionCompras.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx",
-              "RelativeToolTip": "Heladeria\\GestionCompras.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-01T23:59:02.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GestionarMarcas.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\GestionarMarcas.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx",
-              "RelativeToolTip": "Heladeria\\GestionarMarcas.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-07T23:56:14.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ImagenNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ImagenNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ImagenNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ImagenNegocio.cs",
-              "RelativeToolTip": "negocio\\ImagenNegocio.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAswJIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:55:31.789Z",
+              "WhenOpened": "2024-12-08T01:08:09.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GestionarCategorias.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionarCategorias.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx.cs",
-              "RelativeToolTip": "Heladeria\\GestionarCategorias.aspx.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAcwIgAAABBAAAAAAAAAA==",
+              "Title": "RegistroVentas.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroVentas.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Registros\\RegistroVentas.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroVentas.aspx.cs",
+              "RelativeToolTip": "Heladeria\\Registros\\RegistroVentas.aspx.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T05:17:52.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Producto.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\Producto.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx.cs",
-              "RelativeToolTip": "Heladeria\\Producto.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:20:06.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Producto.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\Producto.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx",
-              "RelativeToolTip": "Heladeria\\Producto.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-07T22:16:48.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GestionarCategorias.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\GestionarCategorias.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx",
-              "RelativeToolTip": "Heladeria\\GestionarCategorias.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-07T23:56:28.832Z",
+              "WhenOpened": "2024-12-15T22:56:58.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "CategoriaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\CategoriaNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\CategoriaNegocio.cs",
-              "RelativeToolTip": "negocio\\CategoriaNegocio.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
+              "Title": "GestionVentas.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionVentas.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.designer.cs",
+              "RelativeToolTip": "Heladeria\\GestionVentas.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T05:20:54.202Z",
+              "WhenOpened": "2024-12-08T01:24:42.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MarcaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\MarcaNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\MarcaNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\MarcaNegocio.cs",
-              "RelativeToolTip": "negocio\\MarcaNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RegistroCompras.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Registros\\RegistroCompras.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx.cs",
+              "RelativeToolTip": "Heladeria\\Registros\\RegistroCompras.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T20:22:23.284Z",
+              "WhenOpened": "2024-12-07T22:05:08.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GestionImagen.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionImagen.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.designer.cs*",
-              "RelativeToolTip": "Heladeria\\GestionImagen.aspx.designer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T12:26:05.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AltaProducto.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.designer.cs",
-              "RelativeToolTip": "Heladeria\\AltaProducto.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T12:58:47.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RegistroCompras.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\Registros\\RegistroCompras.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx",
-              "RelativeToolTip": "Heladeria\\Registros\\RegistroCompras.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-14T21:31:21.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AltaProducto.aspx.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Heladeria\\AltaProducto.aspx.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T12:07:14.156Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AltaProducto.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx",
-              "RelativeToolTip": "Heladeria\\AltaProducto.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-08T12:35:29.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Factura.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Factura.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\Factura.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Factura.aspx.cs",
-              "RelativeToolTip": "Heladeria\\Factura.aspx.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T14:48:34.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Factura.cs",
-              "RelativeDocumentMoniker": "dominio\\Factura.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Factura.cs",
-              "RelativeToolTip": "dominio\\Factura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:55:31.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Web.config",
-              "RelativeDocumentMoniker": "Heladeria\\Web.config",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Web.config",
-              "RelativeToolTip": "Heladeria\\Web.config",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-26T19:55:31.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 3,
               "Title": "RegistroVentas.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroVentas.aspx",
               "RelativeDocumentMoniker": "Heladeria\\Registros\\RegistroVentas.aspx",
@@ -576,7 +355,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 4,
+              "Title": "GestionProveedor.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Proveedor\\GestionProveedor.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\Proveedor\\GestionProveedor.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Proveedor\\GestionProveedor.aspx",
+              "RelativeToolTip": "Heladeria\\Proveedor\\GestionProveedor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T18:52:43.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Factura.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Factura.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Factura.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Factura.aspx.cs",
+              "RelativeToolTip": "Heladeria\\Factura.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:48:34.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GestionVentas.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx",
               "RelativeDocumentMoniker": "Heladeria\\GestionVentas.aspx",
@@ -589,123 +394,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GestionVentas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionVentas.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.cs",
-              "RelativeToolTip": "Heladeria\\GestionVentas.aspx.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAowFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T01:08:09.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\AccesoDatos.cs",
-              "RelativeToolTip": "negocio\\AccesoDatos.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAowEkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:55:31.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RegistroCompras.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\Registros\\RegistroCompras.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx.cs",
-              "RelativeToolTip": "Heladeria\\Registros\\RegistroCompras.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:05:08.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Default.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\Default.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Default.aspx",
-              "RelativeToolTip": "Heladeria\\Default.aspx",
+              "DocumentIndex": 5,
+              "Title": "RegistroCompras.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\Registros\\RegistroCompras.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Registros\\RegistroCompras.aspx",
+              "RelativeToolTip": "Heladeria\\Registros\\RegistroCompras.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-26T19:55:31.814Z",
+              "WhenOpened": "2024-12-14T21:31:21.148Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\styles.css",
-              "RelativeDocumentMoniker": "Heladeria\\styles.css",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\styles.css",
-              "RelativeToolTip": "Heladeria\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-26T19:55:31.815Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "GestionCompras.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionCompras.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx.cs",
-              "RelativeToolTip": "Heladeria\\GestionCompras.aspx.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAIwFwAAAAAAAAAAAAAAA==",
+              "Title": "ImagenNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ImagenNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ImagenNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ImagenNegocio.cs",
+              "RelativeToolTip": "negocio\\ImagenNegocio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:37:06.143Z",
+              "WhenOpened": "2024-10-26T19:55:31.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DetalleCompraNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleCompraNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\DetalleCompraNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleCompraNegocio.cs",
-              "RelativeToolTip": "negocio\\DetalleCompraNegocio.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "ProveedorNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProveedorNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ProveedorNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProveedorNegocio.cs",
+              "RelativeToolTip": "negocio\\ProveedorNegocio.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:51:41.144Z",
+              "WhenOpened": "2024-10-27T10:28:00.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DetalleCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleCompra.cs",
-              "RelativeDocumentMoniker": "dominio\\DetalleCompra.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleCompra.cs",
-              "RelativeToolTip": "dominio\\DetalleCompra.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:32:41.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "DetalleVenta.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleVenta.cs",
-              "RelativeDocumentMoniker": "dominio\\DetalleVenta.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleVenta.cs",
-              "RelativeToolTip": "dominio\\DetalleVenta.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:46:43.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 8,
               "Title": "Factura.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Factura.aspx",
               "RelativeDocumentMoniker": "Heladeria\\Factura.aspx",
@@ -718,72 +446,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ClienteNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ClienteNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ClienteNegocio.cs",
-              "RelativeToolTip": "negocio\\ClienteNegocio.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Producto.cs",
+              "RelativeDocumentMoniker": "dominio\\Producto.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Producto.cs",
+              "RelativeToolTip": "dominio\\Producto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:49:19.303Z",
+              "WhenOpened": "2024-10-26T19:55:31.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Categoria.cs",
-              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Categoria.cs",
-              "RelativeToolTip": "dominio\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T03:39:48.645Z",
+              "DocumentIndex": 10,
+              "Title": "AltaProducto.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx",
+              "RelativeToolTip": "Heladeria\\AltaProducto.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-08T12:35:29.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ProductoNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProductoNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ProductoNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProductoNegocio.cs",
-              "RelativeToolTip": "negocio\\ProductoNegocio.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "AltaProducto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs",
+              "RelativeToolTip": "Heladeria\\AltaProducto.aspx.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwCgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:55:31.802Z",
+              "WhenOpened": "2024-12-08T12:39:25.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "RegistroClientes.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\Clientes\\RegistroClientes.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx.cs",
-              "RelativeToolTip": "Heladeria\\Clientes\\RegistroClientes.aspx.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "AltaProducto.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.designer.cs",
+              "RelativeToolTip": "Heladeria\\AltaProducto.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:08:52.765Z",
+              "WhenOpened": "2024-12-08T12:58:47.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "GestionCliente.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\GestionCliente.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\Clientes\\GestionCliente.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\GestionCliente.aspx.cs",
-              "RelativeToolTip": "Heladeria\\Clientes\\GestionCliente.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwEUAAABJAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "GestionarCategorias.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionarCategorias.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx.cs",
+              "RelativeToolTip": "Heladeria\\GestionarCategorias.aspx.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwIgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T19:06:51.482Z",
+              "WhenOpened": "2024-12-08T05:17:52.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 17,
+              "Title": "GestionStock.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionStock.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionStock.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionStock.aspx.cs",
+              "RelativeToolTip": "Heladeria\\GestionStock.aspx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T04:59:19.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GestionProveedor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Proveedor\\GestionProveedor.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Proveedor\\GestionProveedor.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Proveedor\\GestionProveedor.aspx.cs",
+              "RelativeToolTip": "Heladeria\\Proveedor\\GestionProveedor.aspx.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:49:55.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "GestionCliente.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\GestionCliente.aspx",
               "RelativeDocumentMoniker": "Heladeria\\Clientes\\GestionCliente.aspx",
@@ -796,33 +550,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "RegistroClientes.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx",
-              "RelativeDocumentMoniker": "Heladeria\\Clientes\\RegistroClientes.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx",
-              "RelativeToolTip": "Heladeria\\Clientes\\RegistroClientes.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-26T23:08:11.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "GestionarMarcas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionarMarcas.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx.cs",
-              "RelativeToolTip": "Heladeria\\GestionarMarcas.aspx.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "GestionCliente.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\GestionCliente.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Clientes\\GestionCliente.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\GestionCliente.aspx.cs",
+              "RelativeToolTip": "Heladeria\\Clientes\\GestionCliente.aspx.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T00:01:01.42Z",
+              "WhenOpened": "2024-10-29T19:06:51.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 18,
               "Title": "GestionStock.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionStock.aspx",
               "RelativeDocumentMoniker": "Heladeria\\GestionStock.aspx",
@@ -835,20 +576,369 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "GestionStock.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionStock.aspx.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionStock.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionStock.aspx.cs",
-              "RelativeToolTip": "Heladeria\\GestionStock.aspx.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBkAAABQAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "GestionCompras.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionCompras.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx.cs",
+              "RelativeToolTip": "Heladeria\\GestionCompras.aspx.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwDMAAADQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T04:59:19.924Z",
+              "WhenOpened": "2024-12-07T21:37:06.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClienteNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ClienteNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ClienteNegocio.cs",
+              "RelativeToolTip": "negocio\\ClienteNegocio.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAIwJIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:49:19.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GestionCompras.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\GestionCompras.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionCompras.aspx",
+              "RelativeToolTip": "Heladeria\\GestionCompras.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-01T23:59:02.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GestionarMarcas.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\GestionarMarcas.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx",
+              "RelativeToolTip": "Heladeria\\GestionarMarcas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-07T23:56:14.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GestionImagen.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionImagen.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.cs",
+              "RelativeToolTip": "Heladeria\\GestionImagen.aspx.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:24:08.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductoNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProductoNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ProductoNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProductoNegocio.cs",
+              "RelativeToolTip": "negocio\\ProductoNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:55:31.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Producto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Producto.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx.cs",
+              "RelativeToolTip": "Heladeria\\Producto.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:20:06.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Producto.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\Producto.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Producto.aspx",
+              "RelativeToolTip": "Heladeria\\Producto.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-07T22:16:48.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GestionImagen.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\GestionImagen.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx",
+              "RelativeToolTip": "Heladeria\\GestionImagen.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T12:18:37.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Site.Master",
+              "RelativeDocumentMoniker": "Heladeria\\Site.Master",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Site.Master",
+              "RelativeToolTip": "Heladeria\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-26T19:55:31.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Imagen.cs",
+              "RelativeDocumentMoniker": "dominio\\Imagen.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Imagen.cs",
+              "RelativeToolTip": "dominio\\Imagen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:55:31.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GestionarCategorias.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\GestionarCategorias.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarCategorias.aspx",
+              "RelativeToolTip": "Heladeria\\GestionarCategorias.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-07T23:56:28.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CategoriaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\CategoriaNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\CategoriaNegocio.cs",
+              "RelativeToolTip": "negocio\\CategoriaNegocio.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T05:20:54.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MarcaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\MarcaNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\MarcaNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\MarcaNegocio.cs",
+              "RelativeToolTip": "negocio\\MarcaNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:22:23.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GestionImagen.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionImagen.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionImagen.aspx.designer.cs",
+              "RelativeToolTip": "Heladeria\\GestionImagen.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:26:05.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AltaProducto.aspx.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\AltaProducto.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\AltaProducto.aspx.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Heladeria\\AltaProducto.aspx.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:07:14.156Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Factura.cs",
+              "RelativeDocumentMoniker": "dominio\\Factura.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Factura.cs",
+              "RelativeToolTip": "dominio\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:55:31.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Web.config",
+              "RelativeDocumentMoniker": "Heladeria\\Web.config",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Web.config",
+              "RelativeToolTip": "Heladeria\\Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-26T19:55:31.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "negocio\\AccesoDatos.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:55:31.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Default.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\Default.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Default.aspx",
+              "RelativeToolTip": "Heladeria\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-26T19:55:31.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\styles.css",
+              "RelativeDocumentMoniker": "Heladeria\\styles.css",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\styles.css",
+              "RelativeToolTip": "Heladeria\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-26T19:55:31.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DetalleCompraNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleCompraNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\DetalleCompraNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleCompraNegocio.cs",
+              "RelativeToolTip": "negocio\\DetalleCompraNegocio.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:51:41.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleCompra.cs",
+              "RelativeDocumentMoniker": "dominio\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleCompra.cs",
+              "RelativeToolTip": "dominio\\DetalleCompra.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:32:41.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "dominio\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\DetalleVenta.cs",
+              "RelativeToolTip": "dominio\\DetalleVenta.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:46:43.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Categoria.cs",
+              "RelativeToolTip": "dominio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T03:39:48.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
+              "Title": "RegistroClientes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Clientes\\RegistroClientes.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx.cs",
+              "RelativeToolTip": "Heladeria\\Clientes\\RegistroClientes.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T23:08:52.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegistroClientes.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx",
+              "RelativeDocumentMoniker": "Heladeria\\Clientes\\RegistroClientes.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\RegistroClientes.aspx",
+              "RelativeToolTip": "Heladeria\\Clientes\\RegistroClientes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-26T23:08:11.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GestionarMarcas.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx.cs",
+              "RelativeDocumentMoniker": "Heladeria\\GestionarMarcas.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionarMarcas.aspx.cs",
+              "RelativeToolTip": "Heladeria\\GestionarMarcas.aspx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T00:01:01.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Marca.cs",
               "RelativeDocumentMoniker": "dominio\\Marca.cs",
@@ -861,20 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Producto.cs",
-              "RelativeDocumentMoniker": "dominio\\Producto.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Producto.cs",
-              "RelativeToolTip": "dominio\\Producto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:55:31.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Cliente.cs",
               "RelativeDocumentMoniker": "dominio\\Cliente.cs",
@@ -887,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "EmpleadoNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\EmpleadoNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\EmpleadoNegocio.cs",
@@ -900,33 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ProveedorNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProveedorNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ProveedorNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\ProveedorNegocio.cs",
-              "RelativeToolTip": "negocio\\ProveedorNegocio.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:28:00.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "GestionVentas.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Heladeria\\GestionVentas.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionVentas.aspx.designer.cs",
-              "RelativeToolTip": "Heladeria\\GestionVentas.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T01:24:42.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "Gestiones.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Gestiones.aspx",
               "RelativeDocumentMoniker": "Heladeria\\Gestiones.aspx",
@@ -939,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "Gestiones.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Gestiones.aspx.cs",
               "RelativeDocumentMoniker": "Heladeria\\Gestiones.aspx.cs",
@@ -952,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "ModificarCliente.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Clientes\\ModificarCliente.aspx",
               "RelativeDocumentMoniker": "Heladeria\\Clientes\\ModificarCliente.aspx",
@@ -965,7 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "GestionProveedor.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionProveedor.aspx.cs",
               "RelativeDocumentMoniker": "Heladeria\\GestionProveedor.aspx.cs",
@@ -976,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "GestionHelado.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionHelado.aspx.cs",
               "RelativeDocumentMoniker": "Heladeria\\GestionHelado.aspx.cs",
@@ -987,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Empleado.cs",
               "RelativeDocumentMoniker": "dominio\\Empleado.cs",
@@ -1000,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "GestionProveedor.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionProveedor.aspx",
               "RelativeDocumentMoniker": "Heladeria\\GestionProveedor.aspx",
@@ -1011,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "HeladoNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\HeladoNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\HeladoNegocio.cs",
@@ -1023,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "GestionProveedor.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionProveedor.aspx.designer.cs",
               "RelativeDocumentMoniker": "Heladeria\\GestionProveedor.aspx.designer.cs",
@@ -1035,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "Helado.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\dominio\\Helado.cs",
               "RelativeDocumentMoniker": "dominio\\Helado.cs",
@@ -1047,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "DetalleVentaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\negocio\\DetalleVentaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetalleVentaNegocio.cs",
@@ -1059,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "GestionHelado.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\GestionHelado.aspx",
               "RelativeDocumentMoniker": "Heladeria\\GestionHelado.aspx",
@@ -1071,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "RegistroClientes.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\RegistroClientes.aspx.designer.cs",
               "RelativeDocumentMoniker": "Heladeria\\RegistroClientes.aspx.designer.cs",
@@ -1083,7 +1134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 68,
               "Title": "Ventas.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Ventas.aspx",
               "RelativeDocumentMoniker": "Heladeria\\Ventas.aspx",
@@ -1095,7 +1146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Heladeria\\Default.aspx.cs",
@@ -1107,7 +1158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "Default.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\TP-Cuatrimestral-Equipo9B\\Heladeria\\Heladeria\\Default.aspx.designer.cs",
               "RelativeDocumentMoniker": "Heladeria\\Default.aspx.designer.cs",

@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
-        <h2 class="text-center">Gestión de Compras</h2>
+        <h2 class="text-center">Compras a realizar</h2>
         
 
     <div class="container">
@@ -40,6 +40,7 @@
                 <asp:BoundField DataField="Codigo" HeaderText="Codigo" />
                 <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
                 <asp:BoundField DataField="Cantidad" HeaderText="Cantidad en Stock" />
+                <asp:BoundField DataField="StockMinimo" HeaderText="Stock Minimo" />
                 <asp:BoundField DataField="FechaActualizacion" HeaderText="Fecha de Actualización" />
 
             </Columns>

@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col">
                 <div class="card shadow p-4">
-                    <h3 class="text-center mb-4">Gestión de Clientes</h3>
+                    <h3 class="text-center mb-4">Listado de Clientes</h3>
                     <asp:GridView ID="gvClientes" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered">
                         <Columns>
                             <asp:BoundField DataField="IdCliente" HeaderText="ID" />

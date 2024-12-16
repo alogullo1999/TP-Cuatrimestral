@@ -21,7 +21,7 @@ namespace Heladeria
                 CargarCategoria();
                 CargarMarca();
                 CargarProveedor();
-                CargarImagen();
+  
                
 
             }
@@ -39,7 +39,6 @@ namespace Heladeria
                     int idMarca = int.Parse(ddlMarca.SelectedValue);
                     int idProveedor = int.Parse(ddlProveedor.SelectedValue);
                     int idCategoria = int.Parse(ddlCategoria.SelectedValue);
-                int imagenUrl = int.Parse(ddlImagen.Text);
 
          
                     Producto producto = new Producto
@@ -50,14 +49,13 @@ namespace Heladeria
                         Descripcion = descripcion,
                         marca = new Marca { IdMarca = idMarca },
                         proveedor = new Proveedor { IdProveedor = idProveedor },
-                        imagenUrl = new Imagen { Id = imagenUrl }
-                    };
 
-            
+                    };
                     ProductoNegocio productoNegocio = new ProductoNegocio();
                     productoNegocio.Agregar(producto);
 
-                    Response.Redirect("GestionCliente.aspx");
+
+                Response.Redirect("GestionCliente.aspx");
                 }
                 catch (Exception ex)
                 {
@@ -96,14 +94,7 @@ namespace Heladeria
             ddlCategoria.DataBind();
         }
 
-        private void CargarImagen()
-        {
-            ImagenNegocio imagenNegocio = new ImagenNegocio();
-            ddlImagen.DataSource = imagenNegocio.listarImagen();
-            ddlImagen.DataTextField = "UrlImagen";
-            ddlImagen.DataValueField = "Id";
-            ddlImagen.DataBind();
-        }
+
 
 
 

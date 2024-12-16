@@ -99,8 +99,25 @@ namespace negocio
         }
 
 
+        public void EliminarProveedor(int idProveedor)
+        {
+            AccesoDatos datos = new AccesoDatos();
 
-
+            try
+            {
+                datos.setearConsulta("DELETE FROM Proveedores WHERE IdProveedor = @IdProveedor");
+                datos.setearParametro("@IdProveedor", idProveedor);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
 
 
 

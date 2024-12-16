@@ -1,4 +1,5 @@
-﻿using negocio;
+﻿using dominio;
+using negocio;
 using System;
 using System.Data;
 using System.Web.UI;
@@ -14,9 +15,9 @@ namespace Heladeria
 
         protected void btnGenerarFactura_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(txtIdVenta.Text, out int idVenta))
+            if (int.TryParse(txtIdVenta.Text, out int idDetalleVenta))
             {
-                CargarFactura(idVenta);
+                CargarFactura(idDetalleVenta);
             }
             else
             {
@@ -24,7 +25,7 @@ namespace Heladeria
             }
         }
 
-        private void CargarFactura(int idVenta)
+        private void CargarFactura(int idDetalleVenta)
         {
             AccesoDatos datos = new AccesoDatos();
 
@@ -43,9 +44,9 @@ namespace Heladeria
                     FROM DetalleVentas dv 
                     INNER JOIN Clientes c ON dv.IdCliente = c.IdCliente 
                     INNER JOIN Productos p ON dv.IdProducto = p.IdProducto 
-                    WHERE dv.IdVenta = @IdVenta");
+                    WHERE dv.idDetalleVenta = @idDetalleVenta");
 
-                datos.setearParametro("@IdVenta", idVenta);
+                datos.setearParametro("@idDetalleVenta", idDetalleVenta);
                 datos.EjecutarLectura();
 
        
@@ -63,7 +64,7 @@ namespace Heladeria
                 if (dt.Rows.Count > 0)
                 {
                     DataRow row = dt.Rows[0]; 
-                    lblNumeroFactura.Text = $"FAC-{idVenta}";
+                    lblNumeroFactura.Text = $"FAC-{idDetalleVenta}";
                     lblFechaVenta.Text = Convert.ToDateTime(row["FechaVenta"]).ToString("dd/MM/yyyy");
                     lblNombreCliente.Text = row["Cliente"].ToString();
                     lblCiudadCliente.Text = row["Ciudad"].ToString();

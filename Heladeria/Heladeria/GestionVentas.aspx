@@ -44,31 +44,34 @@
                      <label for="txtPrecioUnitario">Precio:</label>
                      <asp:TextBox ID="txtPrecioUnitario" runat="server" CssClass="form-control" />
                  </div>
+
+
+
                 
                 <div class="text-center mt-4">
-                    <asp:Button ID="btnRealizarVenta" runat="server" Text="Realizar Venta" CssClass="btn btn-primary" OnClick="btnRealizarVenta_Click" />
+                    <asp:Button ID="btnRealizarVenta" runat="server" Text="Agregar producto" CssClass="btn btn-primary" OnClick="btnRealizarVenta_Click" />
                 </div>
+
+                 <div class="col-md-2">
+                <asp:Button ID="btnFinalizarVenta" runat="server" Text="Finalizar Venta" CssClass="btn btn-success" OnClick="btnFinalizarVenta_Click" />
+                   </div>
          </div>
 
         </div>
+              <div class="text-center">
+                  <asp:Label ID="lblError" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
+              </div>
+    </div>
+         <p> </p>
 
-
-        <h4 class="text-center">Resumen Stock</h4>
+        <h4 class="text-center">Resumen de Venta</h4>
         <p> </p>
-    <div class="col">
-        <asp:GridView ID="gvStock" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered">
-            <Columns>
- 
-                <asp:BoundField DataField="IdProducto" HeaderText="ID Producto" />
-                <asp:BoundField DataField="Codigo" HeaderText="Codigo" />
-                <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
-                <asp:BoundField DataField="Cantidad" HeaderText="Cantidad en Stock" />
-                <asp:BoundField DataField="FechaActualizacion" HeaderText="Fecha de Actualización" />
+ <div class="col">
+        <asp:GridView ID="gvResumenVenta" runat="server" AutoGenerateColumns="True" CssClass="table table-striped table-bordered">
 
-            </Columns>
         </asp:GridView>
     </div>
-</div>
+
 
     </div>
 </asp:Content>

@@ -28,8 +28,8 @@ namespace dominio
         public Proveedor proveedor { get; set; }
 
         public Categoria categoria { get; set; }
-        public Imagen imagenUrl { get; set; }
 
+        public Imagen ImagenUrl { get; set; }
 
     }
 }

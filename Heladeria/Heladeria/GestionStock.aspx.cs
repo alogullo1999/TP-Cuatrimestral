@@ -23,7 +23,7 @@ namespace Heladeria
 
             try
             {
-                datos.setearConsulta("select  s.IdProducto,  p.Codigo, p.Nombre, p.Descripcion,  s.Cantidad,  s.FechaActualizacion  from Stock s inner  join Productos p  on s.IdProducto = p.IdProducto");
+                datos.setearConsulta("select  s.IdProducto,  p.Codigo, p.Nombre, p.Descripcion,  s.Cantidad,  s.StockMinimo, s.FechaActualizacion  from Stock s inner  join Productos p  on s.IdProducto = p.IdProducto");
                 datos.EjecutarLectura();
                 dt.Load(datos.Lector);
 

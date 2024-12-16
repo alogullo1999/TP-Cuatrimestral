@@ -19,7 +19,7 @@ namespace Heladeria
                 CargarCliente();
                 CargarProductos();
                 CargarEmpleado();
-                CargarStock();
+
             }
 
         }
@@ -50,10 +50,67 @@ namespace Heladeria
             ddlProducto.DataSource = productoNegocio.listarProducto();
             ddlProducto.DataTextField = "Nombre";
             ddlProducto.DataValueField = "IdProducto";
+
+            ddlProductoPrecio.DataTextField = "Precio";
+            ddlProducto.DataValueField = "Precio";
+
             ddlProducto.DataBind();
+
+
+         
+        }
+
+        private int GenerarIdVenta()
+        {
+            if (Session["IdDetalleVenta"] == null)
+            {
+
+                AccesoDatos datos = new AccesoDatos();
+                datos.setearConsulta("SELECT ISNULL(MAX(IdDetalleVenta), 0) + 1 AS NuevoIdVenta FROM DetalleVentas");
+                datos.EjecutarLectura();
+
+                if (datos.Lector.Read())
+                {
+                    int nuevoIdVenta = (int)datos.Lector["NuevoIdVenta"];
+                    Session["IdDetalleVenta"] = nuevoIdVenta; 
+                    return nuevoIdVenta;
+                }
+            }
+
+            return (int)Session["IdDetalleVenta"]; 
         }
 
 
+        private void MostrarResumenVenta(int idVenta)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            DataTable dt = new DataTable();
+
+            try
+            {
+                datos.setearConsulta(@"
+            SELECT dv.IdProducto, p.Nombre AS Producto, dv.Cantidad, dv.PrecioUnitario, (dv.Cantidad * dv.PrecioUnitario) AS Total
+            FROM DetalleVentas dv
+            INNER JOIN Productos p ON dv.IdProducto = p.IdProducto
+            WHERE dv.IdDetalleVenta = @IdDetalleVenta");
+                datos.setearParametro("@IdDetalleVenta", idVenta);
+
+                datos.EjecutarLectura();
+                dt.Load(datos.Lector);
+
+                gvResumenVenta.DataSource = dt;
+                gvResumenVenta.DataBind();
+            }
+            catch 
+            {
+                lblError.Text = "Ocurrió un error al cargar el resumen de la venta.";
+                lblError.CssClass = "text-danger"; 
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
 
         protected void btnRealizarVenta_Click(object sender, EventArgs e)
         {
@@ -61,6 +118,8 @@ namespace Heladeria
 
             try
             {
+       
+                int idDetalleVenta = GenerarIdVenta();
                 int idEmpleado = int.Parse(ddlEmpleado.SelectedValue);
                 int idCliente = int.Parse(ddlCliente.SelectedValue);
                 int idProducto = int.Parse(ddlProducto.SelectedValue);
@@ -68,11 +127,11 @@ namespace Heladeria
                 int sabores = int.Parse(txtSabores.Text);
                 decimal precioUnitario = decimal.Parse(txtPrecioUnitario.Text);
 
+                datos.setearConsulta(@"
+            INSERT INTO DetalleVentas (IdDetalleVenta, FechaVenta, IdCliente, IdEmpleado, IdProducto, Sabores, Cantidad, PrecioUnitario)
+            VALUES (@IdDetalleVenta, GETDATE(), @IdCliente, @IdEmpleado, @IdProducto, @Sabores, @Cantidad, @PrecioUnitario)");
 
-                datos.setearConsulta(@"INSERT INTO DetalleVentas (FechaVenta, IdCliente, IdEmpleado, IdProducto, Sabores, Cantidad, PrecioUnitario)
-
-                               VALUES (GETDATE(), @IdCliente, @IdEmpleado, @IdProducto, @Sabores, @Cantidad, @PrecioUnitario)");
-
+                datos.setearParametro("@IdDetalleVenta", idDetalleVenta);
                 datos.setearParametro("@IdCliente", idCliente);
                 datos.setearParametro("@IdEmpleado", idEmpleado);
                 datos.setearParametro("@IdProducto", idProducto);
@@ -81,14 +140,13 @@ namespace Heladeria
                 datos.setearParametro("@Sabores", sabores);
 
                 datos.ejecutarAccion();
-                CargarStock();
 
-
-
+                MostrarResumenVenta(idDetalleVenta);
             }
-            catch (Exception ex)
+            catch 
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alert", $"alert('Error al registrar venta: {ex.Message}');", true);
+                lblError.Text = "Error al agregar venta, revisar stock ";
+                lblError.Visible = true;
             }
             finally
             {
@@ -96,32 +154,46 @@ namespace Heladeria
             }
         }
 
-
-
-
-        private void CargarStock()
+        protected void btnFinalizarVenta_Click(object sender, EventArgs e)
         {
             AccesoDatos datos = new AccesoDatos();
-            DataTable dt = new DataTable();
 
             try
             {
-                datos.setearConsulta("select  s.IdProducto,  p.Codigo,  p.Descripcion,  s.Cantidad,  s.FechaActualizacion  from Stock s inner  join Productos p  on s.IdProducto = p.IdProducto");
-                datos.EjecutarLectura();
-                dt.Load(datos.Lector);
+                if (Session["IdDetalleVenta"] != null)
+                {
+                    int idDetalleVenta = (int)Session["IdDetalleVenta"];
 
-                gvStock.DataSource = dt;
-                gvStock.DataBind();
+                    Session["IdDetalleVenta"] = null;
+                    gvResumenVenta.DataSource = null;
+                    gvResumenVenta.DataBind();
+
+ 
+                    ddlCliente.SelectedIndex = 0;
+                    ddlEmpleado.SelectedIndex = 0;
+                    ddlProducto.SelectedIndex = 0;
+                    txtCantidad.Text = string.Empty;
+                    txtSabores.Text = string.Empty;
+                    txtPrecioUnitario.Text = string.Empty;
+                }
+                else
+                {
+                    lblError.Text = "No se econtro venta activa";
+                    lblError.Visible = true;
+                }
             }
-            catch (Exception ex)
+            catch 
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alert", $"alert('Error al cargar compras: {ex.Message}');", true);
+                lblError.Text = "Error al finalizar la venta";
+                lblError.Visible = true;
             }
             finally
             {
                 datos.cerrarConexion();
             }
         }
+
+
 
     }
 }

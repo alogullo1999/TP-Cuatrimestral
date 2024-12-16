@@ -43,12 +43,27 @@ namespace Heladeria
 
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
+            if (!string.IsNullOrEmpty(txtID.Text)) { 
+                int IdProveedor;
 
-            Response.Redirect("RegistroProveedor.aspx");
+                if (int.TryParse(txtID.Text, out IdProveedor))
+                {
+       
+                    ProveedorNegocio proveedorNegocio = new ProveedorNegocio();
+                    proveedorNegocio.EliminarProveedor(IdProveedor);
+                    CargarProveedores();
+                }
+   
+            }
+
+                    else
+                    {
+                        ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('Por favor, ingrese un ID válido.');", true);
+                    }
+
+            }
+
 
         }
-
-
-    }
 
 }

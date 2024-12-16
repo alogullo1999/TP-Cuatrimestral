@@ -19,17 +19,20 @@
                     <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" CssClass="btn btn-secondary" OnClick="btnLimpiar_Click" />
                 </div>
             </div>
+
+            <asp:Label ID="lblError" runat="server" Text="" CssClass="form-label"></asp:Label>
+
         </div>
     </div>
     <div class="row">
             <div class="col">
                 <div class="card shadow p-4">
-                    <h3 class="text-center mb-4">Gestión de Compras</h3>
+                    <h3 class="text-center mb-4">Registro de Compras</h3>
                     <asp:GridView ID="gvDetalleCompras" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered">
                         <Columns>
                             <asp:BoundField DataField="FechaCompra" HeaderText="Fecha de Compra" />
-                            <asp:BoundField DataField="IdProveedor" HeaderText="ID Proveedor" />
-                            <asp:BoundField DataField="IdProducto" HeaderText="ID Producto" />
+                            <asp:BoundField DataField="Proveedor" HeaderText="Proveedor" />
+                            <asp:BoundField DataField="Producto" HeaderText="Producto" />
                             <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" />
                             <asp:BoundField DataField="PrecioUnitario" HeaderText="Precio Unitario" />
                             <asp:BoundField DataField="TotalCompra" HeaderText="Total Compra" />

@@ -17,6 +17,11 @@
                 <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" CssClass="btn btn-danger mx-2" OnClick="btnEliminar_Click" />
             </div>
         </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card shadow p-4">
+                    <h3 class="text-center mb-4">Listado de Proveedores</h3>
 
         <asp:GridView ID="gvProveedores" runat="server" AutoGenerateColumns="False"  CssClass="table table-striped table-bordered">
             <Columns>
@@ -29,4 +34,6 @@
             </Columns>
         </asp:GridView>
     </div>
+                </div>
+            </div>
 </asp:Content>

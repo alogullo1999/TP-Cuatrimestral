@@ -4,20 +4,19 @@
     <div class="container mt-5">
         <h1 class="text-center mb-4">Factura</h1>
 
-        <!-- Campo para Ingresar el IdVenta -->
+
         <div class="mb-4">
             <label for="txtIdVenta">Ingrese el ID de la Venta:</label>
             <asp:TextBox ID="txtIdVenta" runat="server" CssClass="form-control" Width="200px"></asp:TextBox>
             <asp:Button ID="btnGenerarFactura" runat="server" Text="Generar Factura" CssClass="btn btn-primary mt-2" OnClick="btnGenerarFactura_Click" />
         </div>
 
-        <!-- Información de la Factura -->
+
         <div class="mb-4">
             <h4>Número de Factura: <asp:Label ID="lblNumeroFactura" runat="server"></asp:Label></h4>
             <h5>Fecha de Venta: <asp:Label ID="lblFechaVenta" runat="server"></asp:Label></h5>
         </div>
 
-        <!-- Información del Cliente -->
         <div class="mb-4">
             <h5>Cliente:</h5>
             <p>
@@ -27,7 +26,7 @@
             </p>
         </div>
 
-        <!-- Detalle de Productos -->
+
         <div class="mb-4">
             <h5>Detalle de Productos:</h5>
             <table class="table table-bordered">
@@ -54,7 +53,7 @@
             </table>
         </div>
 
-        <!-- Totales -->
+
         <div class="text-end">
             <h5>Subtotal: <asp:Label ID="lblSubtotal" runat="server"></asp:Label></h5>
             <h5>IVA (21%): <asp:Label ID="lblIVA" runat="server"></asp:Label></h5>

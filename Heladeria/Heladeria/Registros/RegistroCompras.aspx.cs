@@ -24,7 +24,7 @@ namespace Heladeria
 
             try
             {
-                string query = @"SELECT FechaCompra,IdCompra,IdProveedor,IdProducto,Cantidad,PrecioUnitario,TotalCompra FROM DetalleCompras WHERE 1=1";
+                string query = @"SELECT FechaCompra,IdCompra,p.Nombre as Proveedor,pr.Nombre as Producto ,Cantidad,PrecioUnitario,TotalCompra FROM DetalleCompras dc inner join Proveedores p on dc.IdProveedor = p.IdProveedor  inner join Productos pr on dc.IdProducto = pr.IdProducto WHERE 1=1";
 
                 if (!string.IsNullOrWhiteSpace(fechaCompra))
                 {
@@ -34,8 +34,8 @@ namespace Heladeria
 
                 if (!string.IsNullOrWhiteSpace(idProducto))
                 {
-                    query += " AND IdProducto=@IdProducto";
-                    datos.setearParametro("@IdProducto", idProducto);
+                    query += " AND pr.Nombre = @Nombre";
+                    datos.setearParametro("@Nombre", idProducto);
                 }
 
                 datos.setearConsulta(query);
@@ -48,7 +48,7 @@ namespace Heladeria
             }
             catch (Exception ex)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alert", $"alert('Error al cargar datos: {ex.Message}');", true);
+                lblError.Text = "Error al aplicar el filtro";
             }
             finally
             {

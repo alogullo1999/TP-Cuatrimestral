@@ -12,13 +12,12 @@
                 <asp:BoundField DataField="Nombre" HeaderText="Codigo" />
                 <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
                 <asp:BoundField DataField="Cantidad" HeaderText="Cantidad en Stock" />
+                <asp:BoundField DataField="StockMinimo" HeaderText="Stock Minimo" />
                 <asp:BoundField DataField="FechaActualizacion" HeaderText="Fecha de Actualización" />
 
             </Columns>
         </asp:GridView>
     </div>
-</div>
-
 
 
 </asp:Content>

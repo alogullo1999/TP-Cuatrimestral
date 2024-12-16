@@ -61,7 +61,7 @@ namespace negocio
                     };
 
 
-                    aux.imagenUrl = new Imagen
+                    aux.ImagenUrl = new Imagen
                     {
                         UrlImagen = datos.Lector["imagenUrl"] != DBNull.Value ? (string)datos.Lector["imagenUrl"] : null
                     };
@@ -94,8 +94,9 @@ namespace negocio
             try
             {
                 datos.setearConsulta(@"
-                    INSERT INTO Productos (Codigo, Nombre, Precio, Descripcion, IdMarca, IdProveedor, imagenUrl) 
-                    VALUES (@codigo, @nombre, @precio, @descripcion, @idMarca, @idProveedor, @imagenUrl)
+                    INSERT INTO Productos (Codigo, Nombre, Precio, Descripcion, IdMarca, IdProveedor) 
+                    OUTPUT INSERTED.IdProducto
+                    VALUES (@codigo, @nombre, @precio, @descripcion, @idMarca, @idProveedor)
                 ");
 
                 datos.setearParametro("@codigo", nuevo.Codigo);
@@ -104,9 +105,10 @@ namespace negocio
                 datos.setearParametro("@descripcion", nuevo.Descripcion);
                 datos.setearParametro("@idMarca", nuevo.marca?.IdMarca ?? (object)DBNull.Value);
                 datos.setearParametro("@idProveedor", nuevo.proveedor?.IdProveedor ?? (object)DBNull.Value);
-                datos.setearParametro("@imagenUrl", nuevo.imagenUrl ?? (object)DBNull.Value);
 
                 datos.ejecutarAccion();
+
+
             }
             catch (Exception ex)
             {
@@ -142,7 +144,6 @@ namespace negocio
                 datos.setearParametro("@descripcion", prod.Descripcion);
                 datos.setearParametro("@idMarca", prod.marca?.IdMarca ?? (object)DBNull.Value);
                 datos.setearParametro("@idProveedor", prod.proveedor?.IdProveedor ?? (object)DBNull.Value);
-                datos.setearParametro("@imagenUrl", prod.imagenUrl ?? (object)DBNull.Value);
                 datos.setearParametro("@idProducto", prod.IdProducto);
 
                 datos.ejecutarAccion();
