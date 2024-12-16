@@ -8,6 +8,13 @@ use HELADERIA_DB
 go
 
 
+
+CREATE TABLE Categorias(
+    IdCategoria INT PRIMARY KEY IDENTITY(1,1), 
+    Nombre VARCHAR(50) NOT NULL            
+);
+
+
 CREATE TABLE Clientes (
     IdCliente INT PRIMARY KEY IDENTITY(1,1),
     Nombre VARCHAR(50) NOT NULL,              
@@ -16,78 +23,6 @@ CREATE TABLE Clientes (
     Email VARCHAR(100),                       
     Ciudad VARCHAR(50)                        
 );
-
-
-CREATE TABLE Empleados (
-    IdEmpleado INT PRIMARY KEY IDENTITY(1,1),
-	Usuario VARCHAR(50) UNIQUE NOT NULL,
-    Nombre VARCHAR(50) NOT NULL,             
-    Apellido VARCHAR(50) NOT NULL,           
-    Dni VARCHAR(20) UNIQUE NOT NULL,                              
-);
-
-
-CREATE TABLE Proveedores (
-    IdProveedor INT PRIMARY KEY IDENTITY(1,1),  
-    Nombre VARCHAR(50) NOT NULL,                
-    Email VARCHAR(100),                         
-    Dni VARCHAR(20) UNIQUE NOT NULL,      
-	Entrega INT NOT NULL, 
-
-
-);
-
-
-
-create table Imagenes(
-	Id INT IDENTITY(1,1) not null,
-	IdProducto INT not null,
-	ImagenUrl VARCHAR(1000) not null
-);
-
-
-CREATE TABLE Marcas (
-    IdMarca INT PRIMARY KEY IDENTITY(1,1), 
-    Nombre VARCHAR(50) NOT NULL            
-);
-
-
-CREATE TABLE Productos (
-    IdProducto INT PRIMARY KEY IDENTITY(1,1),  
-    Codigo VARCHAR(50) NOT NULL,               
-    Nombre VARCHAR(100) NOT NULL,              
-    Precio DECIMAL(10,2) NOT NULL,             
-    Descripcion VARCHAR(255),                  
-    Cantidad DECIMAL(10,3) NOT NULL,           
-    IdMarca INT NOT NULL,                      
-	IdProveedor INT NOT NULL,
-
-);
-
-
-
-CREATE TABLE DetalleVentas (
-    IdVenta INT PRIMARY KEY IDENTITY(1,1),    
-    FechaVenta DATETIME NOT NULL,             
-    Estado VARCHAR(20) NOT NULL,              
-    IdEmpleado INT NOT NULL,                  
-    IdCliente INT NOT NULL,                   
-    IdProducto INT NOT NULL,                       
-    PrecioUnitario DECIMAL(10,2) NOT NULL,    
-    TotalVenta AS (Cantidad * PrecioUnitario),
-    Sabores INT NOT NULL,
- 
-);
-
-CREATE TABLE Stock (
-    IdInventario INT IDENTITY(1,1) PRIMARY KEY,
-    IdProducto INT NOT NULL,                   
-    Cantidad INT NOT NULL,                     
-    FechaActualizacion DATETIME NOT NULL DEFAULT GETDATE(),
-    CONSTRAINT FK_Inventario_Productos FOREIGN KEY (IdProducto) REFERENCES Productos(IdProducto)
-);
-
-
 
 
 CREATE TABLE DetalleCompras (
@@ -100,10 +35,78 @@ CREATE TABLE DetalleCompras (
     TotalCompra AS (Cantidad * PrecioUnitario) PERSISTED
 );
 
-CREATE TABLE Categorias(
-    IdCategoria INT PRIMARY KEY IDENTITY(1,1), 
+
+
+CREATE TABLE DetalleVentas (
+    IdVenta INT PRIMARY KEY IDENTITY(1,1),
+    FechaVenta DATETIME NOT NULL,
+    IdEmpleado INT NOT NULL,
+    IdCliente INT NOT NULL,
+    IdProducto INT NOT NULL,
+    Cantidad DECIMAL(10,3) NOT NULL,
+    PrecioUnitario DECIMAL(10,2) NOT NULL,
+    TotalVenta AS (Cantidad * PrecioUnitario),
+    Sabores INT NOT NULL,
+    IdDetalleVenta INT NOT NULL
+);
+
+CREATE TABLE Empleados (
+    IdEmpleado INT PRIMARY KEY IDENTITY(1,1),
+    Usuario VARCHAR(50) UNIQUE NOT NULL,
+    Nombre VARCHAR(50) NOT NULL,             
+    Apellido VARCHAR(50) NOT NULL,           
+    Dni VARCHAR(20) UNIQUE NOT NULL,                              
+);
+
+
+CREATE TABLE Imagenes(
+	Id INT IDENTITY(1,1) not null,
+	IdProducto INT not null,
+	ImagenUrl VARCHAR(1000) not null
+);
+
+
+CREATE TABLE Marcas (
+    IdMarca INT PRIMARY KEY IDENTITY(1,1), 
     Nombre VARCHAR(50) NOT NULL            
 );
+
+CREATE TABLE Productos (
+    IdProducto INT PRIMARY KEY IDENTITY(1,1),  
+    Codigo VARCHAR(50) NOT NULL,               
+    Nombre VARCHAR(100) NOT NULL,              
+    Precio DECIMAL(10,2) NOT NULL,             
+    Descripcion VARCHAR(255),                            
+    IdMarca INT NOT NULL,                      
+    IdProveedor INT NOT NULL,
+    Categoria INT NOT NULL
+
+);
+
+
+CREATE TABLE Proveedores (
+    IdProveedor INT PRIMARY KEY IDENTITY(1,1),  
+    Nombre VARCHAR(50) NOT NULL,                
+    Email VARCHAR(100),                         
+    Dni VARCHAR(20) UNIQUE NOT NULL,      
+    Ciudad VARCHAR(50),  
+    Telefono VARCHAR(15), 
+);
+
+
+
+
+CREATE TABLE Stock (
+    IdInventario INT IDENTITY(1,1) PRIMARY KEY,
+    IdProducto INT NOT NULL,                   
+    Cantidad INT NOT NULL,                     
+    FechaActualizacion DATETIME NOT NULL DEFAULT GETDATE(),
+    CONSTRAINT FK_Inventario_Productos FOREIGN KEY (IdProducto) REFERENCES Productos(IdProducto)
+);
+
+
+
+
 
 
 
@@ -153,6 +156,47 @@ BEGIN
 END;
 
 
+USE [HELADERIA_DB]
+GO
+/****** Object:  Trigger [dbo].[ValidarStock]    Script Date: 15/12/2024 21:08:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER TRIGGER [dbo].[ValidarStock]
+ON [dbo].[DetalleVentas]
+INSTEAD OF INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (
+        SELECT 1
+        FROM INSERTED i
+        INNER JOIN Stock s ON i.IdProducto = s.IdProducto
+        WHERE i.Cantidad > s.Cantidad
+    )
+    BEGIN
+
+        RAISERROR('Stock insuficiente para realizar la venta.', 16, 1);
+        ROLLBACK TRANSACTION;
+        RETURN;
+    END
+
+  
+    INSERT INTO DetalleVentas (IdDetalleVenta, FechaVenta, IdCliente, IdEmpleado, IdProducto, Sabores, Cantidad, PrecioUnitario)
+    SELECT IdDetalleVenta, FechaVenta, IdCliente, IdEmpleado, IdProducto, Sabores, Cantidad, PrecioUnitario
+    FROM INSERTED;
+
+END;
+
+
+
+
+
+
+
+
 INSERT INTO Clientes (Nombre, Apellido, Dni, Email, Ciudad)
 VALUES 
 ('Juan', 'Pérez', '12345678', 'juan.perez@gmail.com', 'Buenos Aires'),
@@ -173,30 +217,46 @@ VALUES
 ('Grido'),
 ('Rapanui');
 
-
-INSERT INTO Proveedores (Nombre, Email, Dni, Ciudad)
+INSERT INTO Categoria (Nombre)
 VALUES 
-('Proveedor A', 'contacto@proveedora.com', '34567890', 'Mendoza'),
-('Proveedor B', 'ventas@proveedorb.com', '65432109', 'La Plata');
+('Potes'),
+('Helado'),
+('Cucurucho'),
+('Palito');
 
 
 
-
-
-
-
-
-INSERT INTO Vouchers (CodigoVoucher, IdCliente, FechaCanje, IdProducto)
+INSERT INTO Proveedores (Nombre, Email, Dni, Ciudad, Telefono)
 VALUES 
-('VCH1234', 1, '2024-10-25 10:30:00', 1),
-('VCH5678', 2, '2024-10-25 12:15:00', 2);
+('Proveedor A', 'contacto@proveedora.com', '34567890', 'Mendoza', 1167679898),
+('Proveedor B', 'ventas@proveedorb.com', '65432109', 'La Plata', 1149925893),
+('Diego Helado', 'diego@helados.com', '42023124', 'Flores', 1149434343);
 
 
 
-INSERT INTO DetalleVentas (FechaVenta, Estado, IdEmpleado, IdCliente, IdProducto, Cantidad, PrecioUnitario)
+INSERT INTO Productos (Codigo, Nombre, Precio, Descripcion, IdMarca, IdProveedor, Categoria)
 VALUES 
-('2024-10-25 14:00:00', 'En curso', 1, 1, 1, 1.500, 45000.50),
-('2024-10-25 15:30:00', 'En curso', 2, 2, 2, 0.800, 75000.99);
+('P001', '1Kg', 20000.00, '1 Kilo', 1, 2, 1),
+('P002', '2Kg', 35000.00, '2 Kilos', 2, 1, 1),
+('P003', '1/4Kg', 5000.00, '1/4Kg', 3, 2, 3),
+('P004', '500g', 10000.00, '500g', 3, 1, 3),
+('VAN', 'Vainilla', 0.00, 'Vainilla', 5, 3, 2),
+('FRA', 'Fresa', 0.00, 'Fresa', 5, 3, 2),
+('DUL', 'Dulce de Leche', 0.00, 'Dulce De Leche', 5, 3, 2),
+('CHO', 'Chocolate', 0.00, 'Chocolate', 5, 3, 2);
+
+
+INSERT INTO Imagenes (IdProducto, ImagenUrl)
+VALUES 
+(1, 'https://chio.com.ar/tienda/pehuajo/134-home_default/helado-artesanal-x-kilo.jpg'),
+(4, 'https://http2.mlstatic.com/D_836707-MLA79992300581_102024-C.jpg'),
+(5, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEafRUl_NYQaT6zkKklW75VcsCg3oXgXqlw&s'),
+(8, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSousK1_gqcYqTjMIoXSTRRN6hkRywiYd_fTA&s');
+
+
+
+
+
 
 
 
