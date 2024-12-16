@@ -46,7 +46,7 @@ namespace Heladeria
                 gvDetalleCompras.DataSource = dt;
                 gvDetalleCompras.DataBind();
             }
-            catch (Exception ex)
+            catch 
             {
                 lblError.Text = "Error al aplicar el filtro";
             }

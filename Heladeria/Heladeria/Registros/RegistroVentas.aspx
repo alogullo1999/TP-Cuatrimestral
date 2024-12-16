@@ -31,6 +31,12 @@
                         <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" CssClass="btn btn-primary mx-2" OnClick="btnFiltrar_Click" />
                         <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" CssClass="btn btn-secondary" OnClick="btnLimpiar_Click" />
                     </div>
+
+                   <div class="text-center">
+                        <asp:Label ID="lblError" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
+                    </div>
+
+
                 </div>
             </div>
         </div>

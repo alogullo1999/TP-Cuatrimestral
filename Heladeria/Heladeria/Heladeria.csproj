@@ -110,7 +110,6 @@
     <Content Include="Proveedor\RegistroProveedor.aspx" />
     <Content Include="Registros\RegistroCompras.aspx" />
     <Content Include="Registros\RegistroVentas.aspx" />
-    <Content Include="Gestiones.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -278,13 +277,6 @@
       <DependentUpon>RegistroVentas.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Gestiones.aspx.cs">
-      <DependentUpon>Gestiones.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Gestiones.aspx.designer.cs">
-      <DependentUpon>Gestiones.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

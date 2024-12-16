@@ -11,6 +11,10 @@
             <asp:Button ID="btnGenerarFactura" runat="server" Text="Generar Factura" CssClass="btn btn-primary mt-2" OnClick="btnGenerarFactura_Click" />
         </div>
 
+                    <div class="text-center">
+                        <asp:Label ID="lblError" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
+                    </div>
+
 
         <div class="mb-4">
             <h4>Número de Factura: <asp:Label ID="lblNumeroFactura" runat="server"></asp:Label></h4>

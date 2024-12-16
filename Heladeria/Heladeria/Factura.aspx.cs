@@ -21,7 +21,8 @@ namespace Heladeria
             }
             else
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('Por favor, ingrese un ID de Venta válido.');", true);
+                lblError.Text = "Ingerse un ID Valido";
+                lblError.Visible = true;
             }
         }
 
@@ -52,7 +53,8 @@ namespace Heladeria
        
                 if (!datos.Lector.HasRows)
                 {
-                    ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('No se encontraron datos para el ID de Venta proporcionado.');", true);
+                    lblError.Text = "No se encontraron datos para el ID Seleccionado";
+                    lblError.Visible = true;
                     return;
                 }
 
@@ -84,9 +86,10 @@ namespace Heladeria
                 lblIVA.Text = (subtotal * 0.21m).ToString("C");
                 lblTotal.Text = (subtotal * 1.21m).ToString("C");
             }
-            catch (Exception ex)
+            catch 
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alert", $"alert('Error al cargar factura: {ex.Message}');", true);
+                lblError.Text = "Error al cargar";
+                lblError.Visible = true;
             }
             finally
             {

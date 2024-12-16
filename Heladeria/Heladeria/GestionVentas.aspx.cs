@@ -51,8 +51,6 @@ namespace Heladeria
             ddlProducto.DataTextField = "Nombre";
             ddlProducto.DataValueField = "IdProducto";
 
-            ddlProductoPrecio.DataTextField = "Precio";
-            ddlProducto.DataValueField = "Precio";
 
             ddlProducto.DataBind();
 
